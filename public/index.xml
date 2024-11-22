@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- 0.139.0</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Assign Honeycomb Bravo Buttons FBW A320 In MSFS2020</title>
+      <link>http://localhost:1313/blog/fbw-a320-mobiflight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/fbw-a320-mobiflight/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The Bravo Throttle from Honeycomb is an amazing tool for MSFS2020, but I always felt a little frustrated with the lack of button customization options in the sim, especially when it came to the A320.&lt;/p&gt;
+&lt;p&gt;GA flying with the bravo has been great, most of the button options can be assigned directly within the sim. However, I also enjoy flying airliners and I want to use the unassigned buttons on the Bravo Throttle to remove the need for mouse clicks when making common changes during a flight. Mainly, Selected / Managed Heading mode, Vertical Speed mode, and Selected / Managed Speed mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How To Assign Honeycomb Bravo Buttons To The FBW A320 In MSFS2020</title>
+      <link>http://localhost:1313/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</guid>
+      <description>&lt;p&gt;The Bravo Throttle from Honeycomb is an amazing tool for MSFS2020, but I always felt a little frustrated with the lack of button customization options in the sim, especially when it came to the A320.&lt;/p&gt;
+&lt;p&gt;GA flying with the bravo has been great, most of the button options can be assigned directly within the sim. However, I also enjoy flying airliners and I want to use the unassigned buttons on the Bravo Throttle to remove the need for mouse clicks when making common changes during a flight. Mainly, &lt;strong&gt;Selected / Managed Heading&lt;/strong&gt; &lt;strong&gt;mode, Vertical Speed mode, and Selected / Managed Speed mode&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making a flight plan with Pilot2ATC</title>
+      <link>http://localhost:1313/blog/making-a-flight-plan-with-pilot2atc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/making-a-flight-plan-with-pilot2atc/</guid>
+      <description>&lt;p&gt;Pliot2ATC is a companion program that connects to MSFS2020 (and other sims) providing a more realistic and immersive Air Traffic Control (ATC). The in-game ATC is universally known to be awful and I came across Pilot2ATC while looking for alternatives. It is available as a 10 day trial from &lt;a href=&#34;https://pilot2atc.com/&#34;&gt;https://pilot2atc.com/&lt;/a&gt;. The author encourages using the trial period to get familiar with the software before you buy the full version, which will set you back $59.95 US.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft Flight Sim 2020 Garmin G1000 Track Up / North Up</title>
+      <link>http://localhost:1313/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/</guid>
+      <description>&lt;p&gt;The G1000 map orientation defaults to &lt;strong&gt;North Up&lt;/strong&gt;. You can check the current orientation at the top right of the MFD screen.&lt;br&gt;
+The orientation can be changed in the MFD menu.&lt;/p&gt;
+&lt;p&gt;Follow these steps to change:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;mfd map orientation1&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/mfd1.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the MFD, click the &lt;strong&gt;Menu&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt=&#34;mfd map orientation2&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/mfd2.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;On the &lt;strong&gt;Map Options&lt;/strong&gt; screen, click the &lt;strong&gt;ENT&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt=&#34;mfd map orientation3&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/mfd3.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;On the &lt;strong&gt;Orientation&lt;/strong&gt; screen, click the &lt;strong&gt;ENT&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt=&#34;mfd map orientation4&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/mfd4.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MSFS2020 Boeing 787 Horizon Full Flight Tutorial</title>
+      <link>http://localhost:1313/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Welcome to my MSFS Boeing 787 Full Flight Tutorial, I am using the
+Horizon mod for this so if you are using the default 787 or other mod,
+some items may be a little different but you should still be able to
+follow along.&lt;/p&gt;
+&lt;p&gt;We are going to begin cold and dark at Hakodate Airport in Hokkaido,
+Japan. I will go through the start up procedures and show how to enter
+and check a flight plan, set the performance for the flight and show
+you my flows and checklists.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MSFS2020 ILS Landings Guide - Garmin 1000</title>
+      <link>http://localhost:1313/blog/msfs2020-ils-landings-guide-garmin-1000/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/msfs2020-ils-landings-guide-garmin-1000/</guid>
+      <description>&lt;p&gt;If you have been trying to perform an ILS landing using an aircraft equipped with the Garmin 1000 on Microsoft Flight Sim 2020 then there is a good chance that it hasn&amp;rsquo;t been working. Fortunately, I have a solution. Follow my guide below and you should be happily landing using the ILS system.&lt;/p&gt;
+&lt;h2 id=&#34;create-the-flight-plan&#34;&gt;Create The Flight Plan&lt;/h2&gt;
+&lt;p&gt;Step 1 is to create the flight plan in the &lt;strong&gt;World Map&lt;/strong&gt;. In the example I used for this guide, I select &lt;strong&gt;LSMP&lt;/strong&gt; as the departure and &lt;strong&gt;LSGG&lt;/strong&gt; as the arrival. The flight plan will default to &lt;strong&gt;Direct-GPS&lt;/strong&gt;, please change this to &lt;strong&gt;Low-altitude airways.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
