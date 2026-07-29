@@ -1,6 +1,6 @@
 ---
 title: "How To Assign Honeycomb Bravo Buttons To The FBW A320 In MSFS2020"
-created: 2022-01-11
+date: 2022-01-11
 categories: 
   - a320
   - honeycomb

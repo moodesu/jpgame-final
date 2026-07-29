@@ -2,44 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jp-game.com/blog/</loc>
+    <lastmod>2024-11-21T00:43:30+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/787/</loc>
+    <loc>https://jp-game.com/</loc>
+    <lastmod>2024-11-21T00:43:30+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/787/</loc>
+    <loc>https://jp-game.com/categories/787/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/a320/</loc>
+    <loc>https://jp-game.com/tags/787/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://jp-game.com/categories/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jp-game.com/blog/fbw-a320-mobiflight/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/g1000/</loc>
+    <loc>https://jp-game.com/categories/msfs/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/honeycomb/</loc>
+    <loc>https://jp-game.com/tags/msfs2020/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/fbw-a320-mobiflight/</loc>
+    <loc>https://jp-game.com/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</loc>
+    <loc>https://jp-game.com/tags/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/making-a-flight-plan-with-pilot2atc/</loc>
+    <loc>https://jp-game.com/categories/tutorial/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/</loc>
+    <loc>https://jp-game.com/categories/a320/</loc>
+    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/msfs/</loc>
+    <loc>https://jp-game.com/categories/honeycomb/</loc>
+    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/msfs2020/</loc>
+    <loc>https://jp-game.com/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</loc>
+    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/msfs2020/</loc>
+    <loc>https://jp-game.com/categories/msfs2020/</loc>
+    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/</loc>
+    <loc>https://jp-game.com/blog/making-a-flight-plan-with-pilot2atc/</loc>
+    <lastmod>2021-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/msfs2020-ils-landings-guide-garmin-1000/</loc>
+    <loc>https://jp-game.com/categories/g1000/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://jp-game.com/blog/microsoft-flight-sim-2020-garmin-g1000-track-up-north-up/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jp-game.com/blog/msfs2020-ils-landings-guide-garmin-1000/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tutorial/</loc>
+    <loc>https://jp-game.com/search/</loc>
   </url>
 </urlset>

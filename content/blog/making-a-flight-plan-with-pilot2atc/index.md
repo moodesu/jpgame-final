@@ -1,6 +1,7 @@
 ---
 title: "Making a flight plan with Pilot2ATC"
-created: 2021-05-26
+date: 2021-05-26
+description: "How to build a flight plan in Pilot2ATC and import it into Microsoft Flight Simulator 2020."
 categories: 
   - msfs2020
 authors: 
@@ -16,7 +17,7 @@ Back to the reason for this article and that is making the flight plan with Pilo
 The software can seem a little daunting at first, the user interface isn't the prettiest but it makes up for it in functionality.  
 I assume you have already opened the software and are presented with a screen similar to mine here:
 
-![p2atc screenshot](p2atc.png)
+![p2atc screenshot](p2atc.webp)
 
 Let's plan a flight from Kobe - **RJBE** to Tokyo Haneda -**RJTT**.
 
@@ -24,11 +25,11 @@ Let's plan a flight from Kobe - **RJBE** to Tokyo Haneda -**RJTT**.
 
 3. Enter our origin airport ICAO code, which is **RJBE**, and click **Enter**.
 
-![Add Waypoint screen](p2atc1.png)
+![Add Waypoint screen](p2atc1.webp)
 
 4. Repeat step 3, adding another waypoint for our destination airport ICAO code, which is **RJTT**, and click **Enter**.
 
-![route displayed](p2atc2.png)
+![route displayed](p2atc2.webp)
 
 The map should show the basic straight line plan between the two airports and the right hand pane should have your waypoints listed as text.  
 We are going to populate it with the correct departures, arrivals, approaches, and, airways.
@@ -36,7 +37,7 @@ We are going to populate it with the correct departures, arrivals, approaches, a
 5. Click on the **SID** button, a pop-out window appears with the available Standard Instrument Departure procedures, since we are flying East, let's select a SID with a transition heading East.  
     I chose **MIDER** by clicking on it within the window.
 
-![MIDER transition selected](p2atc4.png)
+![MIDER transition selected](p2atc4.webp)
 
 6. Click **LOAD** to insert the procedure into our flight plan. You should notice the procedure and waypoints appear in the plan window.
 
@@ -46,7 +47,7 @@ We are going to populate it with the correct departures, arrivals, approaches, a
     I went for RW34L, XACV arrival via XAC Transition.  
     Click **LOAD** to add it to our plan.
 
-![STAR Transition](p2atc6.png)
+![STAR Transition](p2atc6.webp)
 
 9. We now add the approach by clicking the **APPR** button.  
     With the correct runway selected, look through the various approaches until you see one that you would like. I wanted an ILS landing so I looked through the available ILS approaches and chose one which had a transition point that worked with the **STAR** we picked previously.  
@@ -54,7 +55,7 @@ We are going to populate it with the correct departures, arrivals, approaches, a
 
 11. Once again, click **LOAD** to add it to our plan.
 
-![ILS Approach transition](p2atc7.png)
+![ILS Approach transition](p2atc7.webp)
 
 11. The plan is almost complete, we have our Departure and arrival set but we can also add an airway to take us from the end transition point of our departure to the entry transition point of our arrival. To do this, find the **MIDER** waypoint in our plan. On the left of the waypoint there is a triangle icon. Clicking it brings up an options window.
 

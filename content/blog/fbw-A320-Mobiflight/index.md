@@ -1,8 +1,9 @@
 +++
 authors = ["JPGame"]
 title = "How To Assign Honeycomb Bravo Buttons FBW A320 In MSFS2020"
-date = ""
-feature = "A320_cockpit.jpeg"
+date = "2023-12-11"
+description = "How to use Mobiflight to assign Honeycomb Bravo Throttle buttons to control the FlyByWire A320 in MSFS2020."
+feature = "A320_cockpit.webp"
 tags = []
 categories = []
 #series = ""
@@ -28,7 +29,7 @@ Unzip it to a location of your choice.
 Open the Mobiflight Connector folder and double click MFConnector.exe, click Yes to any popups appear the first time you open it.
 It should look like this image:
 
-![MobiFlight](MF1.png)
+![MobiFlight](MF1.webp)
 
 Double-click on the part that says ‘Double-Click’ and type in ‘Selected Speed’
 Now click on the edit button at the right of the window.
@@ -40,7 +41,7 @@ For ‘Input Settings’ we choose the ‘On Press’ tab and select the ‘Acti
 In ‘Group’ scroll through to find the ‘Fly By Wire/A320/Autopilot’ and select it.
 For ‘Event’ we want to select the event that will trigger when we press the button, which will be ‘SPD Pull’.
 Press ‘OK’ to save the configuration. It should be the same as the image here:
-![Input Reference](MF2.png)
+![Input Reference](MF2.webp)
 
 With the first button configured, it’s a case of repeating the steps above for the others. As I mentioned previously, I start at the left of the Bravo Throttle and move right to mirror the FCU which has the Speed knob, then the Heading knob, followed by the Alt knob, and finally the Vertical Speed knob but, feel free to use any button combination you like.
 
@@ -60,7 +61,7 @@ Repeat the steps above until you have added all the button configs from the tabl
 | VS Push | Button 41 | Fly By Wire/A320-DEV/Autopilot | A32NX_FCU_VS_PUSH |
 
 By now, your connector should look like this:
-![MobiFlight Final Config](mf3.png)
+![MobiFlight Final Config](mf3.webp)
 
 Make sure to ‘Tick the box’ to make the line active, otherwise it won’t work. Now click ‘Run’ and start your sim.
 The Bravo buttons should now be controlling the functions we configured in the previous steps.
