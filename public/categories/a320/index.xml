@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>A320 on </title>
-    <link>http://localhost:1313/categories/a320/</link>
-    <description>Recent content in A320 on </description>
-    <generator>Hugo -- 0.139.0</generator>
+    <title>A320 on JP Game</title>
+    <link>https://jp-game.com/categories/a320/</link>
+    <description>Recent content in A320 on JP Game</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/a320/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jp-game.com/categories/a320/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Assign Honeycomb Bravo Buttons To The FBW A320 In MSFS2020</title>
-      <link>http://localhost:1313/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</guid>
+      <link>https://jp-game.com/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://jp-game.com/blog/honeycomb-bravo-throttle-and-fbw-a320-button-assignments/</guid>
       <description>&lt;p&gt;The Bravo Throttle from Honeycomb is an amazing tool for MSFS2020, but I always felt a little frustrated with the lack of button customization options in the sim, especially when it came to the A320.&lt;/p&gt;
 &lt;p&gt;GA flying with the bravo has been great, most of the button options can be assigned directly within the sim. However, I also enjoy flying airliners and I want to use the unassigned buttons on the Bravo Throttle to remove the need for mouse clicks when making common changes during a flight. Mainly, &lt;strong&gt;Selected / Managed Heading&lt;/strong&gt; &lt;strong&gt;mode, Vertical Speed mode, and Selected / Managed Speed mode&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>

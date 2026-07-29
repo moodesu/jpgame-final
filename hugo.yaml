@@ -1,15 +1,20 @@
-baseURL: https://example.org/
+baseURL: https://jp-game.com/
 languageCode: en-us
-title: 
+title: JP Game
 theme: PaperMod
-paginate: 5
+pagination:
+  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+# GA4 property ID (starts with "G-"). Universal Analytics (UA-...) stopped
+# processing data in July 2023, so the old placeholder has been removed.
+# Add your real GA4 ID here, e.g. "G-XXXXXXXXXX", or delete this line to
+# disable Google Analytics entirely.
+# googleAnalytics: G-XXXXXXXXXX
 
 minify:
   disableXML: true
@@ -18,7 +23,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: JP Game
-  description: "ExampleSite description"
+  description: "Tutorials, guides and reviews for Microsoft Flight Simulator - aircraft, avionics, controllers and addons."
   keywords: [Blog, MSFS2020, Tutorials, Reviews, Addons, Aircraft]
   author: JPGame
   # author: ["Me", "You"] # multiple authors
@@ -46,12 +51,12 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<assets/favicon.ico>"
-    favicon16x16: "</assets/favicon-16x16.png>"
-    favicon32x32: "</assets/favicon-32x32.png>"
-    apple_touch_icon: "</assets/apple-touch-icon.>"
-    safari_pinned_tab: "<link / abs url>"
-    logo: "<static/logo.svg>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    # safari_pinned_tab: "/safari-pinned-tab.svg" # add if you have this asset
+    logo: "/logo.svg"
 
   label:
     icon: logo.svg
@@ -72,13 +77,16 @@ params:
       - name: Tags
         url: tags
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # Add your real verification tags below (from Google Search Console, Bing
+  # Webmaster Tools, Yandex Webmaster) as needed. Leaving fake placeholder
+  # values in place will fail verification, so they've been removed for now.
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "your-real-tag-here"
+  #   bing:
+  #     SiteVerificationTag: "your-real-tag-here"
+  #   yandex:
+  #     SiteVerificationTag: "your-real-tag-here"
 
   cover:
     hidden: false # hide everywhere but not in structured data

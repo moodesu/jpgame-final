@@ -36,9 +36,9 @@ To remove all bindings, click on the **Gear** icon and select **Clear** then con
 
 Now it's just a case of searching for the input you want to change in the search bar. In this example I am looking for **Engine 1 Throttle Controls** so I typed *throttle 1*. From the list I chose **Throttle 1 Axis** and click in the box next to it.
 This will change to say *SCANNING...* 
-![](/content/blog/setting-up-controllers-msfs2024/scanning.png)
+![](scanning.webp)
 at which point we move the lever or press the button that we want to use. The input should be recognised and listed in the box.
-![](/content/blog/setting-up-controllers-msfs2024/configured.png)
+![](configured.webp)
 
 Now the fun part... repeat the process for every input / button on every controller that you want to configure. After you are finished make sure to click on **Save and Back**
 

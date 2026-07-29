@@ -1,6 +1,7 @@
 ---
 title: "MSFS2020 ILS Landings Guide - Garmin 1000"
-created: 2021-04-01
+date: 2021-04-01
+description: "A step-by-step guide to setting up and flying an ILS approach with the Garmin G1000 in Microsoft Flight Simulator 2020."
 categories: 
   - g1000
   - msfs2020
@@ -14,17 +15,17 @@ If you have been trying to perform an ILS landing using an aircraft equipped wit
 
 Step 1 is to create the flight plan in the **World Map**. In the example I used for this guide, I select **LSMP** as the departure and **LSGG** as the arrival. The flight plan will default to **Direct-GPS**, please change this to **Low-altitude airways.**
 
-![](T4ntZaF.jpg)
+![](T4ntZaF.webp)
 
 After changing to low-altitude airways, you will notice an extra field under the **arrival** airport. This **Approach** field is where we can specify the ILS or RNAV approach path we would like to use.
 
-![](PV9B0pi.jpg)
+![](PV9B0pi.webp)
 
 Go ahead and select **Approach (ILS 22)** which will give us a straight approach in to Geneva. With the approach selected we can then click on the **Nav Log** button to have a look at our cruise altitude and **most importantly** our waypoints. Specifically, the altitude of the last waypoint before the runway.
 
 You can see here that the final waypoint before the runway is **GG808** and it's altitude is **4000ft**.
 
-![](SGC4MYV.jpg)
+![](SGC4MYV.webp)
 
 The reason we are so interested in this point is that it is the **Final Fix** for the ILS system to use the automatic approach. What it means is that if we are at the specified altitude (here it is 4000ft) as we cross this point then the ILS system can take over and bring the aircraft in to land.
 
@@ -64,7 +65,7 @@ Coming up to the Final Fix point, **Turn approach mode ON** by pressing the **AP
 
 The purple indicator will turn green and so will the glide slope indicator (G). A green diamond should now be visible in the glide slope indicator. This will move up and down as a visual reference to your glide angle.
 
-![](cdigreen-1024x576.jpg)
+![](cdigreen-1024x576.webp)
 
 ## Approach
 

@@ -1,7 +1,8 @@
 +++
 authors = [ "JPGame" ]
 title = "MSFS2020 Boeing 787 Horizon Full Flight Tutorial"
-date = ""
+date = "2023-12-11"
+description = "A full flight tutorial for the MSFS2020 Boeing 787 Horizon mod, cold and dark start at Hakodate through to landing at Tokyo Haneda."
 feature = ""
 featureCaption = ""
 tags = [ "MSFS2020", "787" ]
@@ -72,24 +73,24 @@ Once the plan is available press LOAD and our initial flight plan will automatic
 We still need to insert our departure runway and procedures. 
 
 Press DEP ARR and choose the departure runway and SID according to your flight plan.
-![SimBrief Routing ](hkdhndroute.png#center)
+![SimBrief Routing ](hkdhndroute.webp#center)
 
 As we can see from the image, our departure is from runway 12 via the TSUGA2 SID. Press the buttons next to the to select and your departure should be ready and look like this image
-![RJCH Departures](dep1.png#center)
+![RJCH Departures](dep1.webp#center)
 
 Press the DEP ARR button to go back to the DEP/ARR Index page, this time press the ARR button on the right.
 
 Our arrival runway is 22 so select it and the available STARs will be filtered for that runway, pretty neat.
 
 According to SimBrief we are using the MESSEN STAR so press NEXT PAGE until MESSEN is available and press the button next to it to select. The arrival should look like this:
-![RJTT Arrivals](arr1.png#center)
+![RJTT Arrivals](arr1.webp#center)
 The route is loaded but we still need to finalize it by pressing EXEC.
 
 ## Add Fuel
 Look at the flight plan from SimBrief, the Summary and Fuel page will list our block fuel. Add or remove fuel - using the Weights and Balance widget in MSFS - to match this number, I usually take a little extra.
 
 I also remove all fuel from the centre tank unless it’s a long haul flight. This saves me from switching on the centre fuel pumps.
-![SimBrief Fuel](fuel.png#center)
+![SimBrief Fuel](fuel.webp#center)
 
 ## Performance
 With the fuel on board, we can input our flight performance values.
@@ -128,7 +129,7 @@ Press INIT REF >> INDEX >> TAKEOFF to go to the TAKEOFF REF UPLINK page.
 Here we can press ACCEPT to finalize the Vref data. 
 
 Double press the CG button to complete the FMC Preflight.
-![Takeoff Ref](vref.png#center)
+![Takeoff Ref](vref.webp#center)
 
 Press LEGS on CDU then switch to PLAN mode on the MFD. Check the flight plane by pressing STEP. This will go through each leg individually. If there are any discontinuities then delete then by pressing the DEL key then pressing the button next to the discontinuity.
 
