@@ -9,3 +9,6 @@
   color: var(--primary);
   background: var(--code-bg);
 }
+[data-theme="dark"] .logo img {
+  filter: invert(1);
+}
