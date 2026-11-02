@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{ $pages := (where site.RegularPages "Section" "blog").ByTitle }}
+<main class="jpv2-directory" id="jpv2-directory">
+  <header class="jpv2-directory-head">
+    <span class="jpv2-kicker">JP GAME / REFERENCE LIBRARY</span>
+    <h1>Flight simulator <em>guides.</em></h1>
+    <p>Everything in one place: aircraft procedures, flight planning, avionics and controller configuration. Choose a topic or search by keyword.</p>
+    <div class="jpv2-directory-search">
+      <label for="jpv2-guide-search">Find a guide</label>
+      <input id="jpv2-guide-search" type="search" placeholder="Search aircraft, G1000, Honeycomb, ILS…" autocomplete="off" />
+    </div>
+  </header>
+  <div class="jpv2-directory-tools" role="group" aria-label="Filter guides by topic">
+    <button type="button" class="active" data-topic="all" aria-pressed="true">All guides <span>{{ len $pages }}</span></button>
+    <button type="button" data-topic="aircraft" aria-pressed="false">Aircraft</button>
+    <button type="button" data-topic="hardware" aria-pressed="false">Hardware</button>
+    <button type="button" data-topic="navigation" aria-pressed="false">Navigation</button>
+  </div>
+  <p id="jpv2-directory-status" class="jpv2-directory-status" role="status" aria-live="polite">{{ len $pages }} guides</p>
+  <div class="jpv2-directory-grid">
+  {{ range $pages }}
+    {{ $path := lower .File.Path }}
+    {{ $topic := "navigation" }}
+    {{ $topicLabel := "Navigation & planning" }}
+    {{ if or (in $path "boeing-787") (in $path "setting-up-controllers") }}
+      {{ if in $path "boeing-787" }}{{ $topic = "aircraft" }}{{ $topicLabel = "Aircraft & procedures" }}{{ else }}{{ $topic = "hardware" }}{{ $topicLabel = "Controllers & hardware" }}{{ end }}
+    {{ else if or (in $path "honeycomb") (in $path "mobiflight") }}
+      {{ $topic = "hardware" }}{{ $topicLabel = "Controllers & hardware" }}
+    {{ end }}
+    <article class="jpv2-directory-card" data-topic="{{ $topic }}" data-search="{{ printf "%s %s %s %s" .Title .Description (delimit (.Params.tags | default slice) " ") (delimit (.Params.categories | default slice) " ") | lower }}">
+      <span class="jpv2-card-label">{{ $topicLabel }}</span>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 155 }}{{ end }}</p>
+      <div class="jpv2-directory-card-bottom"><span>{{ .Date.Format "02 Jan 2006" }}</span><a href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}">Read guide ↗</a></div>
+    </article>
+  {{ end }}
+  </div>
+  <p class="jpv2-directory-empty" id="jpv2-directory-empty" hidden>No matching guides. Try a different search or select another topic.</p>
+</main>
+<script>
+(() => {
+  const root = document.getElementById('jpv2-directory');
+  if (!root) return;
+  const input = root.querySelector('#jpv2-guide-search');
+  const buttons = [...root.querySelectorAll('[data-topic].jpv2-directory-tools button')];
+  const cards = [...root.querySelectorAll('.jpv2-directory-card')];
+  const status = root.querySelector('#jpv2-directory-status');
+  const empty = root.querySelector('#jpv2-directory-empty');
+  let topic = 'all';
+  function update() {
+    const q = input.value.toLocaleLowerCase().trim();
+    let count = 0;
+    for (const card of cards) {
+      const visible = (topic === 'all' || card.dataset.topic === topic) && (!q || (card.dataset.search || '').includes(q));
+      card.hidden = !visible;
+      if (visible) count++;
+    }
+    status.textContent = count + (count === 1 ? ' guide' : ' guides');
+    empty.hidden = count !== 0;
+    for (const button of buttons) {
+      const active = button.dataset.topic === topic;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+    }
+  }
+  root.querySelectorAll('.jpv2-directory-tools button').forEach(button => button.addEventListener('click', () => {
+    topic = button.dataset.topic;
+    update();
+  }));
+  input.addEventListener('input', update);
+})();
+</script>
+{{ end }}
