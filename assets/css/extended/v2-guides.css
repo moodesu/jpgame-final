@@ -1,0 +1,29 @@
+/* JP Game V2 guide directory */
+body:has(.jpv2-directory) .main {max-width:1180px;}
+.jpv2-directory {padding:8px 0 70px;}
+.jpv2-directory-head {padding:clamp(26px,5vw,60px);border-radius:16px;background:linear-gradient(125deg,#10283d,#24465d);color:#fff;}
+.jpv2-directory-head .jpv2-kicker {color:#e8b05b;}
+.jpv2-directory-head h1 {font-size:clamp(2.4rem,5vw,4rem);line-height:1.12;letter-spacing:-.05em;margin:16px 0;}
+.jpv2-directory-head h1 em {color:#f1b968;font-style:normal;}
+.jpv2-directory-head p {font-size:1rem;max-width:630px;line-height:1.7;color:#d0dce7;}
+.jpv2-directory-search {max-width:640px;margin-top:28px;}
+.jpv2-directory-search label {display:block;font-weight:700;font-size:.85rem;margin-bottom:8px;color:#f4e0c4;}
+.jpv2-directory-search input {width:100%;padding:15px 18px;color:#102438;background:#fff;border:2px solid transparent;border-radius:9px;font-size:1rem;}
+.jpv2-directory-search input:focus {outline:3px solid #e9b665;outline-offset:2px;}
+.jpv2-directory-tools {display:flex;flex-wrap:wrap;gap:9px;margin:28px 0 15px;}
+.jpv2-directory-tools button {font:inherit;font-weight:700;font-size:.85rem;border:1px solid var(--border);border-radius:40px;padding:10px 15px;color:var(--primary);background:var(--entry);cursor:pointer;}
+.jpv2-directory-tools button.active {background:#d5953c;color:#10273b;border-color:#d5953c;}
+.jpv2-directory-tools button:focus-visible {outline:3px solid #d5953c;outline-offset:2px;}
+.jpv2-directory-tools button span {margin-left:4px;opacity:.75;}
+.jpv2-directory-status {font-size:.83rem;color:var(--secondary);margin-bottom:20px;}
+.jpv2-directory-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.jpv2-directory-card {display:flex;flex-direction:column;gap:15px;min-height:235px;padding:26px;background:var(--entry);border:1px solid var(--border);border-radius:12px;}
+.jpv2-directory-card[hidden],.jpv2-directory-empty[hidden] {display:none!important;}
+.jpv2-directory-card h2 {font-size:1.24rem;font-weight:800;line-height:1.4;}
+.jpv2-directory-card h2 a {color:var(--primary);}
+.jpv2-directory-card h2 a:hover {color:#c28b39;}
+.jpv2-directory-card p {color:var(--secondary);font-size:.93rem;line-height:1.65;}
+.jpv2-directory-card-bottom {margin-top:auto;border-top:1px solid var(--border);padding-top:15px;display:flex;justify-content:space-between;gap:10px;align-items:center;color:var(--secondary);font-size:.82rem;}
+.jpv2-directory-card-bottom a {color:var(--primary);font-weight:800;}
+.jpv2-directory-empty {padding:30px;border:1px dashed var(--border);border-radius:12px;text-align:center;color:var(--secondary);}
+@media(max-width:680px) {.jpv2-directory-grid {grid-template-columns:1fr;}.jpv2-directory-card {min-height:200px;padding:20px;}.jpv2-directory-head {padding:28px 22px;}.jpv2-directory-tools button {padding:9px 12px;}}
