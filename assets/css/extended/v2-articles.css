@@ -1,0 +1,42 @@
+/* JP Game V2: long-form technical documentation */
+body:has(.post-single) .main { max-width: 1180px; }
+.post-single { max-width: 880px; margin-inline:auto; }
+.post-single .post-header { padding: 20px 0 24px; border-bottom:1px solid var(--border); margin-bottom:30px; }
+.post-single .breadcrumbs { margin-bottom:18px; }
+.post-single .post-title { max-width:800px; font-size:clamp(2rem,4vw,3.15rem); line-height:1.14; letter-spacing:-.045em; font-weight:800; text-wrap:balance; }
+.post-single .post-description { color:var(--secondary); line-height:1.7; font-size:1.12rem; margin-top:16px; max-width:700px; }
+.post-single .post-meta { font-size:.78rem; color:var(--secondary); margin-top:15px; }
+.post-single .post-content { font-size:1.045rem; line-height:1.87; max-width:790px; margin:0 auto; }
+.post-single .post-content > p:first-child { font-size:1.1rem; }
+.post-single .post-content h2 { font-size:clamp(1.42rem,2.5vw,1.85rem); line-height:1.3; scroll-margin-top:90px; border-bottom:1px solid var(--border); margin-top:2.8em; padding-bottom:.5em; letter-spacing:-.025em; }
+.post-single .post-content h3 { font-size:1.21rem; line-height:1.45; margin-top:2em; scroll-margin-top:90px; }
+.post-single .post-content p,.post-single .post-content ul,.post-single .post-content ol { margin-bottom:1.15em; }
+.post-single .post-content li { padding-left:.2em; margin-bottom:.45em; }
+.post-single .post-content li::marker { color:#b58037; font-weight:700; }
+.post-single .post-content a { color:#bd7628; text-underline-offset:3px; }
+.dark .post-single .post-content a { color:#f1bd76; }
+.post-single .post-content strong { color:var(--primary); }
+.post-single .post-content blockquote { border-left:4px solid #e5a74f; border-radius:0 7px 7px 0; padding:16px 20px; background:var(--code-bg); color:var(--content); }
+.post-single .post-content pre { border-radius:11px; padding:18px; overflow:auto; }
+.post-single .post-content code:not(pre code) { border-radius:4px; padding:2px 5px; overflow-wrap:anywhere; }
+.post-single .post-content table { display:block; width:max-content; max-width:100%; overflow-x:auto; border-collapse:separate; border-spacing:0; border:1px solid var(--border); border-radius:9px; margin:24px 0; font-size:.92rem; }
+.post-single .post-content table th,.post-single .post-content table td { padding:11px 14px; border-right:1px solid var(--border); border-bottom:1px solid var(--border); vertical-align:top; }
+.post-single .post-content table th { background:var(--code-bg); font-weight:750; }
+.post-single .post-content img { height:auto; max-width:100%; border:1px solid var(--border); border-radius:10px; cursor:zoom-in; }
+.post-single .post-content figure { margin:30px auto; }
+.post-single .post-content figcaption { text-align:center; color:var(--secondary); font-size:.8rem; margin-top:8px; }
+.post-single .toc { margin:0 0 32px; padding:18px 22px; background:var(--entry); border:1px solid var(--border); border-radius:12px; box-shadow:0 4px 15px #061a2608; }
+.post-single .toc details summary { font-weight:750; color:var(--primary); cursor:pointer; }
+.post-single .toc a { text-decoration:none; color:var(--secondary); font-size:.9rem; line-height:1.85; }
+.post-single .toc a:hover { color:#be852e; }
+.post-single .post-footer { margin-top:48px; border-top:1px solid var(--border); padding-top:26px; }
+.post-single .paginav { border-radius:12px; overflow:hidden; border:1px solid var(--border); }
+.post-single .paginav a:hover { background:var(--code-bg); }
+.jpv2-progress {position:fixed;top:0;left:0;height:3px;width:0;background:#e8a64b;z-index:200;pointer-events:none;transition:width .08s linear;}
+.jpv2-lightbox {position:fixed;inset:0;max-width:none;max-height:none;width:100%;height:100%;padding:30px;background:rgba(6,17,29,.93);border:0;color:white;overflow:auto;}
+.jpv2-lightbox::backdrop {background:rgba(6,17,29,.93);}
+.jpv2-lightbox .jpv2-lightbox-wrap {min-height:100%;display:flex;align-items:center;justify-content:center;}
+.jpv2-lightbox img {display:block;max-width:100%;max-height:calc(100vh - 90px);height:auto;object-fit:contain;}
+.jpv2-lightbox button {position:fixed;right:18px;top:14px;width:42px;height:42px;background:#fff;color:#102438;border-radius:50%;font-size:25px;line-height:1;cursor:pointer;}
+@media(max-width:700px) {.post-single .post-header {padding-top:10px;}.post-single .post-content {font-size:1rem;line-height:1.75;}.post-single .toc {padding:15px;}.post-single .post-content table th,.post-single .post-content table td {padding:8px 10px;}.jpv2-lightbox{padding:16px;}}
+@media(prefers-reduced-motion:reduce){.jpv2-progress{transition:none;}}
