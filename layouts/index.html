@@ -1,0 +1,59 @@
+{{- define "main" }}
+{{- $pages := where site.RegularPages "Section" "blog" }}
+{{- $pages = $pages.ByDate.Reverse }}
+{{- $lead := site.GetPage "/blog/boeing-787" }}
+{{- if not $lead }}{{ $lead = index $pages 0 }}{{ end }}
+<section class="jpv2-hero" aria-labelledby="jpv2-headline">
+  <div class="jpv2-hero-content">
+    <span class="jpv2-eyebrow"><span class="jpv2-live-dot"></span> FLIGHT SIMULATION / GUIDES &amp; HARDWARE</span>
+    <h1 id="jpv2-headline">Fly with<br><em>confidence.</em></h1>
+    <p>Practical Microsoft Flight Simulator tutorials, from cockpit setup to the final approach. Clear instructions, real examples, and no unnecessary complexity.</p>
+    <div class="jpv2-actions">
+      <a class="jpv2-button" href="#latest-guides">Explore the guides <span aria-hidden="true">↗</span></a>
+      <a class="jpv2-text-link" href="/categories/">Browse all topics <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="jpv2-hero-meta"><span>MSFS 2020 &amp; 2024</span><span>•</span><span>Aircraft · Avionics · Hardware</span></div>
+  </div>
+  <div class="jpv2-hero-visual" aria-hidden="true">
+    <div class="jpv2-radar-ring ring-one"></div><div class="jpv2-radar-ring ring-two"></div><div class="jpv2-radar-ring ring-three"></div>
+    <div class="jpv2-horizon"></div><div class="jpv2-crosshair">＋</div>
+    <div class="jpv2-visual-top">JP / FLIGHT DECK <span>01 — 24</span></div>
+    <div class="jpv2-visual-bottom"><span>HDG&nbsp; 270°</span><span>ALT&nbsp; FL350</span><span>VS&nbsp; +1200</span></div>
+  </div>
+</section>
+
+<section class="jpv2-section jpv2-topics" aria-labelledby="jpv2-topics-title">
+  <div class="jpv2-section-head"><div><span class="jpv2-kicker">START HERE</span><h2 id="jpv2-topics-title">Find your flight path</h2></div><p>Choose what you want to work on.</p></div>
+  <div class="jpv2-topic-grid">
+    <a class="jpv2-topic" href="/categories/787/"><span class="jpv2-topic-icon" aria-hidden="true">✈</span><span class="jpv2-topic-title">Aircraft &amp; procedures</span><span class="jpv2-topic-desc">Start-up flows, flight-deck systems, and full-flight tutorials.</span><span class="jpv2-topic-arrow">↗</span></a>
+    <a class="jpv2-topic" href="/categories/honeycomb/"><span class="jpv2-topic-icon" aria-hidden="true">⚙</span><span class="jpv2-topic-title">Controllers &amp; hardware</span><span class="jpv2-topic-desc">Honeycomb Bravo, button mapping, and cockpit configuration.</span><span class="jpv2-topic-arrow">↗</span></a>
+    <a class="jpv2-topic" href="/categories/g1000/"><span class="jpv2-topic-icon" aria-hidden="true">◎</span><span class="jpv2-topic-title">Avionics &amp; navigation</span><span class="jpv2-topic-desc">Garmin, ILS approaches, and flight-planning essentials.</span><span class="jpv2-topic-arrow">↗</span></a>
+  </div>
+</section>
+
+{{- with $lead }}
+<section class="jpv2-section jpv2-featured" aria-labelledby="jpv2-featured-title">
+  <div class="jpv2-section-head"><div><span class="jpv2-kicker">EDITOR'S PICK</span><h2 id="jpv2-featured-title">Featured tutorial</h2></div></div>
+  <a class="jpv2-feature-card" href="{{ .RelPermalink }}">
+    <div class="jpv2-feature-image">
+      {{- with .Resources.GetMatch "hkdhndroute.webp" }}<img src="{{ .RelPermalink }}" loading="lazy" alt="Flight route from Hakodate to Tokyo Haneda" />{{ else }}<div class="jpv2-feature-placeholder">787</div>{{ end }}
+    </div>
+    <div class="jpv2-feature-copy"><span class="jpv2-card-label">FULL FLIGHT TUTORIAL</span><h3>{{ .Title }}</h3><p>{{ .Description | default (.Summary | plainify | truncate 190) }}</p><span class="jpv2-read-link">Read the tutorial <span aria-hidden="true">→</span></span></div>
+  </a>
+</section>
+{{- end }}
+
+<section class="jpv2-section jpv2-latest" id="latest-guides" aria-labelledby="jpv2-latest-title">
+  <div class="jpv2-section-head"><div><span class="jpv2-kicker">THE LIBRARY</span><h2 id="jpv2-latest-title">Latest guides</h2></div><a class="jpv2-all-link" href="/blog/">All guides →</a></div>
+  <div class="jpv2-article-grid">
+    {{- range first 6 $pages }}
+    <a class="jpv2-article" href="{{ .RelPermalink }}">
+      <span class="jpv2-card-label">{{ with .Params.categories }}{{ index . 0 | humanize }}{{ else }}Flight simulator{{ end }}</span>
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Description | default (.Summary | plainify | truncate 125) | plainify | truncate 145 }}</p>
+      <span class="jpv2-article-footer"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time><span aria-hidden="true">↗</span></span>
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
