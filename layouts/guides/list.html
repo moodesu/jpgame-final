@@ -46,7 +46,8 @@
   const cards = [...root.querySelectorAll('.jpv2-directory-card')];
   const status = root.querySelector('#jpv2-directory-status');
   const empty = root.querySelector('#jpv2-directory-empty');
-  let topic = 'all';
+  const selectedTopic = new URLSearchParams(window.location.search).get('topic');
+  let topic = ['all','aircraft','hardware','navigation'].includes(selectedTopic) ? selectedTopic : 'all';
   function update() {
     const q = input.value.toLocaleLowerCase().trim();
     let count = 0;
@@ -65,9 +66,14 @@
   }
   root.querySelectorAll('.jpv2-directory-tools button').forEach(button => button.addEventListener('click', () => {
     topic = button.dataset.topic;
+    const url = new URL(window.location.href);
+    if (topic === 'all') url.searchParams.delete('topic');
+    else url.searchParams.set('topic', topic);
+    window.history.replaceState(null, '', url);
     update();
   }));
   input.addEventListener('input', update);
+  update();
 })();
 </script>
 {{ end }}
