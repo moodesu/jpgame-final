@@ -1,0 +1,47 @@
+{{- if and .IsPage (eq .Section "blog") }}
+<div class="jpv2-progress" id="jpv2-reading-progress" aria-hidden="true"></div>
+<dialog class="jpv2-lightbox" id="jpv2-image-dialog" aria-label="Expanded tutorial screenshot">
+  <button type="button" id="jpv2-close-image" aria-label="Close enlarged image">×</button>
+  <div class="jpv2-lightbox-wrap"><img id="jpv2-expanded-image" alt="" /></div>
+</dialog>
+<script>
+(() => {
+  const article = document.querySelector('.post-single .post-content');
+  if (!article) return;
+  const bar = document.getElementById('jpv2-reading-progress');
+  let ticking = false;
+  function updateReadingProgress() {
+    const bounds = article.getBoundingClientRect();
+    const distance = Math.max(1, article.offsetHeight - window.innerHeight * 0.4);
+    const progressed = Math.max(0, Math.min(1, (window.innerHeight * 0.25 - bounds.top) / distance));
+    bar.style.width = (progressed * 100) + '%';
+    ticking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(updateReadingProgress); }
+  }, { passive: true });
+  window.addEventListener('resize', updateReadingProgress);
+  updateReadingProgress();
+
+  const dialog = document.getElementById('jpv2-image-dialog');
+  if (!dialog || typeof dialog.showModal !== 'function') return;
+  const expanded = document.getElementById('jpv2-expanded-image');
+  const close = document.getElementById('jpv2-close-image');
+  article.querySelectorAll('img').forEach(img => {
+    img.tabIndex = 0;
+    img.setAttribute('role', 'button');
+    img.setAttribute('aria-label', 'Enlarge image: ' + (img.alt || 'tutorial screenshot'));
+    function openImage() {
+      expanded.src = img.currentSrc || img.src;
+      expanded.alt = img.alt || 'Expanded tutorial screenshot';
+      dialog.showModal();
+    }
+    img.addEventListener('click', openImage);
+    img.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openImage(); } });
+  });
+  close.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', () => { expanded.removeAttribute('src'); });
+})();
+</script>
+{{- end }}
