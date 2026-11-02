@@ -27,7 +27,7 @@
     {{ else if or (in $path "honeycomb") (in $path "mobiflight") }}
       {{ $topic = "hardware" }}{{ $topicLabel = "Controllers & hardware" }}
     {{ end }}
-    <article class="jpv2-directory-card" data-topic="{{ $topic }}" data-search="{{ printf "%s %s %s %s" .Title .Description (delimit (.Params.tags | default slice) " ") (delimit (.Params.categories | default slice) " ") | lower }}">
+    <article class="jpv2-directory-card" data-topic="{{ $topic }}" data-search="{{ printf "%s %s %s %s" .Title .Description "" "" | lower }}">
       <span class="jpv2-card-label">{{ $topicLabel }}</span>
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 155 }}{{ end }}</p>
