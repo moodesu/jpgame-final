@@ -1,0 +1,13 @@
+# JP Game V2 preview. The production jp-game.com site is not changed.
+[build]
+  command = "hugo --gc --minify --baseURL https://jp-game-v2.netlify.app/"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.147.9"
+  HUGO_ENV = "development"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
