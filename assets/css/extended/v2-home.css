@@ -1,0 +1,52 @@
+/* JP Game V2 editorial homepage */
+body:has(.jpv2-hero) .main { max-width: 1180px; }
+.jpV2-hidden { display:none; }
+.jpv2-hero { position:relative; display:grid; grid-template-columns:1.06fr .94fr; min-height:435px; background:#10273b; color:#fff; border-radius:18px; overflow:hidden; }
+.jpv2-hero-content { position:relative; z-index:2; padding:clamp(32px,5vw,64px); align-self:center; }
+.jpv2-eyebrow,.jpv2-kicker,.jpv2-card-label { font-size:.72rem; font-weight:800; letter-spacing:.13em; text-transform:uppercase; }
+.jpv2-eyebrow {color:#e8b76d;display:inline-flex;align-items:center;gap:10px;}
+.jpv2-live-dot {display:inline-block;background:#eeb45f;width:7px;height:7px;border-radius:50%;}
+.jpv2-hero h1 {font-size:clamp(2.75rem,5.4vw,4.8rem);line-height:1.04;letter-spacing:-.055em;margin:24px 0 22px;font-weight:800;}
+.jpv2-hero h1 em {font-style:normal;color:#f0b55d;}
+.jpv2-hero p {font-size:1.03rem;line-height:1.7;color:#c7d6e4;max-width:490px;}
+.jpv2-actions {display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin:30px 0;}
+.jpv2-button {display:inline-flex;align-items:center;gap:20px;border-radius:7px;background:#efb45e;color:#10273b;padding:13px 19px;font-weight:800;}
+.jpv2-button:hover {background:#ffca7c;}
+.jpv2-text-link {color:#fff;font-size:.92rem;font-weight:650;}
+.jpv2-hero-meta {display:flex;gap:12px;flex-wrap:wrap;font-size:.75rem;letter-spacing:.07em;color:#a9bece;}
+.jpv2-hero-visual {position:relative;overflow:hidden;min-height:340px;background:linear-gradient(155deg,#214662 0%,#17324b 45%,#091827 100%);}
+.jpv2-hero-visual:before {content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0,transparent 38px,#c5deea0d 39px,#c5deea0d 40px),repeating-linear-gradient(90deg,transparent 0,transparent 38px,#c5deea0d 39px,#c5deea0d 40px);}
+.jpv2-radar-ring {position:absolute;border:1px solid #8dbbcb60;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%);aspect-ratio:1;}
+.jpv2-radar-ring.ring-one {width:180px;}.jpv2-radar-ring.ring-two {width:340px;}.jpv2-radar-ring.ring-three {width:510px;}
+.jpv2-horizon {position:absolute;width:130%;height:1px;background:#edb45caa;left:-15%;top:55%;transform:rotate(-12deg);box-shadow:0 0 18px #f9c37a;}
+.jpv2-crosshair {position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:86px;font-weight:200;color:#edb45c;text-shadow:0 0 24px #f6b15b59;}
+.jpv2-visual-top,.jpv2-visual-bottom {position:absolute;left:30px;right:30px;display:flex;justify-content:space-between;gap:10px;font-family:ui-monospace,monospace;letter-spacing:.12em;font-size:.72rem;color:#b4d9e9;}
+.jpv2-visual-top {top:27px;}.jpv2-visual-bottom {bottom:27px;border-top:1px solid #94bcd25a;padding-top:18px;color:#f1bd6e;}
+.jpv2-section {margin-top:64px;}
+.jpv2-section-head {display:flex;justify-content:space-between;align-items:end;gap:22px;margin-bottom:22px;}
+.jpv2-kicker {color:#ba7d2e;}.jpv2-section-head h2 {font-size:clamp(1.65rem,3vw,2.25rem);letter-spacing:-.035em;margin-top:6px;}
+.jpv2-section-head p {color:var(--secondary);font-size:.93rem;}
+.jpv2-topic-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}
+.jpv2-topic {position:relative;display:flex;flex-direction:column;gap:12px;min-height:220px;border-radius:12px;padding:25px;border:1px solid var(--border);background:var(--entry);color:var(--primary);transition:transform .2s ease,border-color .2s ease;}
+.jpv2-topic:hover,.jpv2-article:hover {transform:translateY(-3px);border-color:#dba45e;}
+.jpv2-topic-icon {font-size:26px;color:#c18a42;}
+.jpv2-topic-title {font-size:1.1rem;font-weight:800;}
+.jpv2-topic-desc {max-width:260px;font-size:.89rem;line-height:1.6;color:var(--secondary);}
+.jpv2-topic-arrow {position:absolute;right:23px;top:25px;font-size:1.1rem;color:#c08b43;}
+.jpv2-feature-card {display:grid;grid-template-columns:1fr 1fr;background:var(--entry);border-radius:14px;overflow:hidden;border:1px solid var(--border);color:var(--primary);}
+.jpv2-feature-image {min-height:280px;background:linear-gradient(135deg,#315771,#0d2539);position:relative;overflow:hidden;}
+.jpv2-feature-image img {width:100%;height:100%;position:absolute;inset:0;object-fit:cover;}
+.jpv2-feature-placeholder {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:8rem;font-weight:800;color:#ffffff25;}
+.jpv2-feature-copy {padding:clamp(24px,3.7vw,46px);display:flex;flex-direction:column;justify-content:center;gap:18px;}
+.jpv2-card-label {color:#b77a2e;}
+.jpv2-feature-copy h3 {font-size:clamp(1.3rem,2.5vw,1.9rem);letter-spacing:-.03em;line-height:1.25;}
+.jpv2-feature-copy p,.jpv2-article p {color:var(--secondary);font-size:.92rem;line-height:1.7;}
+.jpv2-read-link {font-weight:750;font-size:.92rem;}
+.jpv2-all-link {font-size:.9rem;font-weight:750;color:var(--primary);}
+.jpv2-article-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}
+.jpv2-article {display:flex;flex-direction:column;gap:13px;min-height:255px;padding:23px;background:var(--entry);border:1px solid var(--border);border-radius:12px;color:var(--primary);transition:transform .2s ease,border-color .2s ease;}
+.jpv2-article h3 {font-size:1.09rem;line-height:1.4;font-weight:800;}
+.jpv2-article-footer {display:flex;justify-content:space-between;color:var(--secondary);font-size:.8rem;margin-top:auto;padding-top:16px;border-top:1px solid var(--border);}
+@media(max-width:800px) {.jpv2-hero {grid-template-columns:1fr;}.jpv2-hero-visual {min-height:230px;}.jpv2-topic-grid,.jpv2-article-grid {grid-template-columns:repeat(2,minmax(0,1fr));}.jpv2-feature-card {grid-template-columns:1fr;}.jpv2-feature-image {min-height:260px;}}
+@media(max-width:550px) {.jpv2-hero {border-radius:12px;}.jpv2-hero-content {padding:30px 24px;}.jpv2-section {margin-top:43px;}.jpv2-topic-grid,.jpv2-article-grid {grid-template-columns:1fr;}.jpv2-topic {min-height:185px;}.jpv2-section-head p {display:none;}.jpv2-feature-image {min-height:200px;}.jpv2-visual-bottom {font-size:.62rem;}}
+@media(prefers-reduced-motion:reduce) {.jpv2-topic,.jpv2-article {transition:none;}.jpv2-topic:hover,.jpv2-article:hover {transform:none;}}
