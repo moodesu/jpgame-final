@@ -135,9 +135,21 @@ Check the **DATA / STATUS** page on the MFD and confirm that the navigation data
 
 Review **ACTIVE / INIT** and the imported flight plan. Confirm the origin and destination. On the IRS page, check that all three inertial reference systems are in NAV.
 
-### Select the departure
+### Select the departure — VHHH runway 07C
 
-From **ACTIVE / INIT**, open **DEPARTURE** and choose the runway, SID and transition shown on your current route and charts. The A350 shows temporary flight-plan modifications before you commit them. Review the choices and **insert the temporary flight plan** only when you're satisfied.
+The following sequence follows **our own A350 cockpit recording** of entering the Hong Kong departure on the MFD. Unlike a generic FMC instruction, it shows the actual drop-down controls and temporary flight-plan confirmation.
+
+1. On the FMS MFD **ACTIVE/INIT** page, check the origin is **VHHH**, the destination is **RCTP**, and the active company flight is the one imported from SimBrief.
+2. Select **DEPARTURE** near the lower left of the MFD. This opens **ACTIVE/F-PLN/DEPARTURE**.
+3. Open the **RWY** drop-down and select **07C**. The selected-departure area now displays **VHHH ILS IZSC**, runway **07C**, runway length **3800 M**, course **067°**, and ILS frequency **109.30**, as shown in the recording.
+4. Open the **SID** drop-down and choose the departure displayed in the aircraft for the route. **Our recording shows DAL01Y** in the MFD (the OFP text names the SID **DALOL1Y**). Verify the SID's exact name and waypoint sequence against the current navigation database and published departure chart rather than assuming those two labels are interchangeable.
+5. Leave **TRANS** as **NONE** if there is no applicable transition in the flight plan. The MFD now displays **TMPY**: these are proposed modifications, not yet the active route.
+6. Return to the temporary flight-plan display. Inspect the new departure legs — in the recording they include **RW07C, HH302, ROVER, HH355, HH356, RAMEN and VEDVO** — and compare their path and altitude restrictions with the chart and OFP.
+7. Select **INSERT TMPY** to activate the proposed route. In the video the legs change from **yellow** (temporary) to **green** (active), confirming the insertion.
+
+**Check the display:** the screen in our recording also shows an amber **NAV ACCUR DOWNGRADED** message. That is a navigation-accuracy indication, not part of normal SID entry; investigate the aircraft's navigation/ADIRS status before departure rather than ignoring it.
+
+**Video-reference checkpoints:** approximately 0:00 **ACTIVE/INIT**, 0:04 **DEPARTURE**, 0:08–0:12 **07C selected**, 0:18–0:24 **SID selected**, 0:36 **temporary route**, and 0:52 **inserted active route**.
 
 ### Inspect the route
 
