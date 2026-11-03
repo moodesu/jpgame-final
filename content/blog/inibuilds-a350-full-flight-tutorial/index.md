@@ -19,6 +19,8 @@ For this example I'm flying from **Hong Kong International (VHHH)** to **Taiwan 
 
 > **Before you start:** Generate a fresh SimBrief operational flight plan (OFP) for VHHH–RCTP and select the correct A350 variant. The runways, SID, STAR, transition, fuel, cruising altitude and performance numbers below are specific to **EVTWF2605**. Recheck them if you generate a different plan or use updated weather.
 
+{{< a350-flight-nav >}}
+
 ## 1. Preparing the flight
 
 For this worked example, we will use the supplied SimBrief OFP **EVTWF2605**, from **VHHH to RCTP**, using the **A350-900 (Trent XWB-84)** profile. If you generate another plan, verify the runways, weather and loading figures against the new OFP.
