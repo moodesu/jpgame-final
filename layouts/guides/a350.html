@@ -3,7 +3,7 @@
   <header class="jpv2-directory-head">
     <span class="jpv2-kicker">JP GAME / AIRCRAFT GUIDES / MSFS 2024</span>
     <h1>Airbus <em>A350.</em></h1>
-    <p>Everything you need to learn the iniBuilds A350 in one place. Start with the flight planning guide, then work through the full flight from cold and dark to shutdown.</p>
+    <p>Everything you need to learn the iniBuilds A350 in one place. Start by connecting SimBrief, then create a flight plan in the OIS and fly the full tutorial from cold and dark to shutdown.</p>
     <p style="margin-top:16px"><a href="{{ "/guides/" | relURL }}" style="color:#f1b968;font-weight:700">← All flight simulator guides</a></p>
   </header>
   <div class="jpv2-directory-tools" aria-label="A350 guide collection">
@@ -11,8 +11,9 @@
   </div>
   <div class="jpv2-directory-grid">
     {{ $guides := slice
-      (dict "slug" "inibuilds-a350-ois-simbrief-flight-planning" "label" "01 / FLIGHT PLANNING" "fallback" "Create a SimBrief flight plan in the A350 OIS")
-      (dict "slug" "inibuilds-airbus-a350-full-flight-tutorial" "label" "02 / FULL FLIGHT" "fallback" "A350 full flight tutorial")
+      (dict "slug" "connect-simbrief-inibuilds-a350" "label" "01 / ACCOUNT SETUP" "fallback" "Connect SimBrief to the A350")
+      (dict "slug" "inibuilds-a350-ois-simbrief-flight-planning" "label" "02 / FLIGHT PLANNING" "fallback" "Create a SimBrief flight plan in the A350 OIS")
+      (dict "slug" "inibuilds-airbus-a350-full-flight-tutorial" "label" "03 / FULL FLIGHT" "fallback" "A350 full flight tutorial")
     }}
     {{ range $guides }}
       {{ $label := .label }}
