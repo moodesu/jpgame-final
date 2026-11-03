@@ -8,6 +8,8 @@ categories = ["MSFS", "Tutorial"]
 slug = "inibuilds-a350-ois-simbrief-flight-planning"
 +++
 
+[← All Airbus A350 tutorials](/guides/a350/)
+
 ## Introduction
 
 One of the useful features of the iniBuilds Airbus A350 in **Microsoft Flight Simulator 2024** is the ability to **generate a new SimBrief flight plan from inside the cockpit**. Rather than switch to a browser, you can enter your departure and arrival airports on the aircraft's **Onboard Information System (OIS)** and have SimBrief build the plan.
