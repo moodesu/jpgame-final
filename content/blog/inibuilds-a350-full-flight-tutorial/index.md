@@ -15,10 +15,6 @@ Welcome to my full-flight tutorial for the **iniBuilds Airbus A350 in Microsoft 
 
 For this example I'm flying from **Hakodate (RJCH)** in Hokkaido to **Tokyo Haneda (RJTT)**. It's a short flight for an A350, but ideal for learning the workflow because we can practise every major phase without spending hours in cruise.
 
-This is a **simulator tutorial**, not a real-world flight manual. It follows the workflow in the [official iniBuilds A350 Airliner manual](https://forum.inibuilds.com/topic/25085-a350-aircraft-manual/) (manual v1.3.0, February 2025), with explanations aimed at a single person flying at home. The aircraft is being updated, so some menu positions and behaviours may differ between versions. Always check the current aircraft and in-sim checklist.
-
-**Video framework:** [Airbus A380 tutorial video/playlist](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2). This is an **A380** reference, not an A350 procedure guide. We are borrowing its clear, full-flight teaching structure only. Aircraft-specific switch actions, display pages and checklists in this article must be validated using the iniBuilds **A350** manual and the installed simulator version.
-
 > **Before you start:** Generate a fresh SimBrief operational flight plan (OFP) for RJCH–RJTT and select the correct A350 variant. Our runway, SID, STAR, transition, fuel, cruising altitude and V-speeds must come from **that flight's** plan and current weather; do not copy values from an unrelated flight.
 
 ## 1. Preparing the flight
