@@ -9,6 +9,8 @@ categories = ["MSFS", "Tutorial"]
 slug = "inibuilds-airbus-a350-full-flight-tutorial"
 +++
 
+[← All Airbus A350 tutorials](/guides/a350/)
+
 ## Introduction
 
 Welcome to my full-flight tutorial for the **iniBuilds Airbus A350 in Microsoft Flight Simulator 2024**. As with my [Horizon Boeing 787 tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/), we'll begin with an unpowered aircraft, plan the flight, work through the cockpit procedures, and finish by shutting the aircraft down at our destination.
