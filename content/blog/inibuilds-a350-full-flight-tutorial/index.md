@@ -17,7 +17,7 @@ For this example I'm flying from **Hakodate (RJCH)** in Hokkaido to **Tokyo Hane
 
 This is a **simulator tutorial**, not a real-world flight manual. It follows the workflow in the [official iniBuilds A350 Airliner manual](https://forum.inibuilds.com/topic/25085-a350-aircraft-manual/) (manual v1.3.0, February 2025), with explanations aimed at a single person flying at home. The aircraft is being updated, so some menu positions and behaviours may differ between versions. Always check the current aircraft and in-sim checklist.
 
-**Reference video:** [A350 video/tutorial playlist on YouTube](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2). I'll use it as a companion reference for the tutorial format; the written procedure below is independently grounded in the iniBuilds manual.
+**Video framework:** [Airbus A380 tutorial video/playlist](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2). This is an **A380** reference, not an A350 procedure guide. We are borrowing its clear, full-flight teaching structure only. Aircraft-specific switch actions, display pages and checklists in this article must be validated using the iniBuilds **A350** manual and the installed simulator version.
 
 > **Before you start:** Generate a fresh SimBrief operational flight plan (OFP) for RJCH–RJTT and select the correct A350 variant. Our runway, SID, STAR, transition, fuel, cruising altitude and V-speeds must come from **that flight's** plan and current weather; do not copy values from an unrelated flight.
 
@@ -323,7 +323,7 @@ Read the **FMA**, not just the FCU. The FMA tells you which vertical, lateral an
 ## Further reading
 
 - [iniBuilds A350 Airliner official aircraft manual](https://forum.inibuilds.com/topic/25085-a350-aircraft-manual/) — the primary reference for the procedures in this guide.
-- [A350 reference video and playlist](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2).
+- [A380 video framework](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2) — for teaching structure only, not A350 procedures.
 - [Horizon Boeing 787 full-flight tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/) — our earlier tutorial using the same Hakodate–Haneda route.
 
 *Editorial note: This is the first written draft. Before publication, add our own cockpit screenshots (OIS, MFD, overhead, FCU, takeoff performance, arrival and landing), verify all cockpit flows against the installed aircraft version, and test the RJCH–RJTT flight end to end.*
