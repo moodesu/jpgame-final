@@ -14,7 +14,7 @@ slug = "inibuilds-a350-ois-simbrief-flight-planning"
 
 One of the useful features of the iniBuilds Airbus A350 in **Microsoft Flight Simulator 2024** is the ability to **generate a new SimBrief flight plan from inside the cockpit**. Rather than switch to a browser, you can enter your departure and arrival airports on the aircraft's **Onboard Information System (OIS)** and have SimBrief build the plan.
 
-In this tutorial, I'll use **Hakodate (RJCH) to Tokyo Haneda (RJTT)**, the same flight as my [A350 full-flight tutorial](/blog/inibuilds-airbus-a350-full-flight-tutorial/). We'll link SimBrief, generate an operational flight plan (OFP), and then make the plan available to the aircraft's other systems.
+In this tutorial, I'll use **Hong Kong (VHHH) to Taiwan Taoyuan (RCTP)**, the route used in my [A350 full-flight tutorial](/blog/inibuilds-airbus-a350-full-flight-tutorial/). We'll link SimBrief, generate an operational flight plan (OFP), and then make the plan available to the aircraft's other systems.
 
 > **Aircraft version:** These instructions describe the iniBuilds A350 OIS planner introduced in April 2025. Menu names and behaviour can change in later aircraft releases. This is for flight simulation, not real-world operations.
 
@@ -41,12 +41,12 @@ You don't need to fill out every field to get a usable flight plan. In fact, **o
 
 | OIS field | Our example |
 |---|---|
-| FROM | RJCH — Hakodate |
-| TO | RJTT — Tokyo Haneda |
+| FROM | VHHH — Hong Kong International |
+| TO | RCTP — Taiwan Taoyuan International |
 
 Leaving the remaining options at **AUTO** tells SimBrief to make those planning decisions. Press **GENERATE PLAN** when you're ready.
 
-For the first attempt, I recommend leaving the optional fields on AUTO. After you've seen the result, come back and experiment with different runways, weights and fuel settings.
+For our published example OFP, the filed route is **DALOL1Y DALOL V631 ENVAR M750 TONGA TONGA1A**, planned at **FL390**, with cost index **15** and **16,243 kg** of block fuel. These are outputs to compare with your newly generated OFP, not values to copy blindly. For the first attempt, I recommend leaving the optional fields on AUTO. After you've seen the result, come back and experiment with different runways, weights and fuel settings.
 
 ## 4. Optional flight-planning settings
 
@@ -68,7 +68,7 @@ If you want more control over the flight, the planner offers additional settings
 
 Use the **CLEAR** control if you want to return the form to its defaults. The planning weight units, **KG** or **LBS**, follow the aircraft-weight setting in the OIS settings page.
 
-For our short RJCH–RJTT demonstration flight, take special care with cruise altitude: a very high flight level may not be practical on a short route, so check the generated plan rather than assuming the automatic choice is appropriate.
+For our short VHHH–RCTP demonstration flight, take special care with cruise altitude: a very high flight level may not be practical on a short route, so check the generated plan rather than assuming the automatic choice is appropriate.
 
 ## 5. Generate and inspect the OFP
 
