@@ -3,7 +3,7 @@ authors = ["JPGame"]
 title = "iniBuilds Airbus A350 Full Flight Tutorial — MSFS 2024"
 date = 2026-11-03
 draft = false
-description = "A step-by-step iniBuilds A350 tutorial in MSFS 2024: cold and dark at Hakodate, SimBrief and flight management setup, takeoff, descent, ILS approach and shutdown at Tokyo Haneda."
+description = "A step-by-step iniBuilds A350 tutorial in MSFS 2024: cold and dark at Hong Kong, SimBrief and flight management setup, takeoff, descent, ILS approach and shutdown at Taiwan Taoyuan."
 tags = ["MSFS 2024", "A350", "iniBuilds", "SimBrief"]
 categories = ["MSFS", "Tutorial"]
 slug = "inibuilds-airbus-a350-full-flight-tutorial"
@@ -15,13 +15,13 @@ slug = "inibuilds-airbus-a350-full-flight-tutorial"
 
 Welcome to my full-flight tutorial for the **iniBuilds Airbus A350 in Microsoft Flight Simulator 2024**. As with my [Horizon Boeing 787 tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/), we'll begin with an unpowered aircraft, plan the flight, work through the cockpit procedures, and finish by shutting the aircraft down at our destination.
 
-For this example I'm flying from **Hakodate (RJCH)** in Hokkaido to **Tokyo Haneda (RJTT)**. It's a short flight for an A350, but ideal for learning the workflow because we can practise every major phase without spending hours in cruise.
+For this example I'm flying from **Hong Kong International (VHHH)** to **Taiwan Taoyuan International (RCTP)**, using SimBrief flight plan **EVTWF2605**, dated 3 November 2026. It's a short flight for an A350, but ideal for learning the workflow because we can practise every major phase without spending hours in cruise.
 
-> **Before you start:** Generate a fresh SimBrief operational flight plan (OFP) for RJCH–RJTT and select the correct A350 variant. Our runway, SID, STAR, transition, fuel, cruising altitude and V-speeds must come from **that flight's** plan and current weather; do not copy values from an unrelated flight.
+> **Before you start:** Generate a fresh SimBrief operational flight plan (OFP) for VHHH–RCTP and select the correct A350 variant. The runways, SID, STAR, transition, fuel, cruising altitude and performance numbers below are specific to **EVTWF2605**. Recheck them if you generate a different plan or use updated weather.
 
 ## 1. Preparing the flight
 
-Create a flight in SimBrief with RJCH as the origin and RJTT as the destination. Choose the A350-900 or A350-1000 aircraft profile to match the aircraft you've loaded.
+For this worked example, we will use the supplied SimBrief OFP **EVTWF2605**, from **VHHH to RCTP**, using the **A350-900 (Trent XWB-84)** profile. If you generate another plan, verify the runways, weather and loading figures against the new OFP.
 
 Take a moment to note:
 
@@ -34,9 +34,45 @@ Take a moment to note:
 | Cost index and reserve fuel | FMS flight initialization |
 | Departure and destination weather | Takeoff and landing performance |
 
-You can use live weather, but it is simpler to learn the flow in clear conditions. Airport runways and procedures change with wind and navigation-data cycles. **The old Horizon guide's runway 12 / runway 22 example is not a fixed route for this flight.** Check the current charts and SimBrief plan before choosing anything.
+You can use live weather, but it is simpler to learn the flow in clear conditions. Airport runways and procedures change with wind and navigation-data cycles. **The planned runways below are from this particular OFP and may need changing for current weather or ATC.** Check the current charts and SimBrief plan before choosing anything.
 
 In MSFS, select the A350 and start at a **parking stand**, rather than on the runway, so we can begin cold and dark.
+
+## Our SimBrief flight: EVTWF2605
+
+This walkthrough uses the supplied **3 November 2026** SimBrief operational flight plan, not an invented route. The OFP is the reference for the following *planned* values. Departure and arrival clearance, active runway, and aircraft-computed speeds can differ in the simulator.
+
+| Item | SimBrief OFP |
+|---|---|
+| Flight | EVTWF2605 / registration EVT359 |
+| Aircraft | Airbus A350-900, Trent XWB-84 |
+| Origin / destination | Hong Kong VHHH → Taiwan Taoyuan RCTP |
+| Departure | Runway **07C**, **DALOL1Y** SID |
+| Arrival | **TONGA1A** STAR, runway **05R** |
+| Filed route | `DALOL1Y DALOL V631 ENVAR M750 TONGA TONGA1A` |
+| Cruise level | **FL390**, cost index **15** |
+| Alternate | **RCKH** (Kaohsiung) |
+| Planned taxi / flight / block | **10 min / 1 h 14 min / 1 h 28 min** |
+| ZFW / estimated takeoff weight | **190,649 kg / 206,643 kg** |
+| Taxi / trip / alternate fuel | **249 kg / 7,410 kg / 4,581 kg** |
+| Final reserve / contingency | **2,511 kg / 1,492 kg** |
+| Planned block fuel | **16,243 kg** |
+
+The OFP lists a planned Hong Kong departure at **08:00 local** and a Taiwan Taoyuan arrival at **09:28 local**. Both are UTC+8. Keep the PDF available throughout the tutorial for comparing the OIS loadsheet, FMS flight plan, and fuel predictions.
+
+### Route to check on the MFD
+
+```text
+VHHH/07C DALOL1Y DALOL V631 ENVAR M750 TONGA TONGA1A RCTP/05R
+```
+
+After loading, inspect the SID, the transition at **DALOL**, airway **V631** to **ENVAR**, airway **M750** to **TONGA**, then the **TONGA1A** arrival. Verify the runway and procedure charts rather than assuming the OFP is an ATC clearance.
+
+### Performance planning values
+
+The OFP's runway analysis assumes **VHHH runway 07C**, takeoff temperature **28°C**, QNH **1018 hPa**, **flaps 1** and a **FLEX temperature of 68°C**. The same report gives approximate takeoff speeds of **V1 139, VR 139 and V2 146 kt** for the planned weight. These are OFP planning figures: **compute and verify the final values using the A350 OIS** with the simulator's actual conditions and loadsheet.
+
+For arrival the OFP lists **RCTP runway 05R**, **26°C**, QNH **1020 hPa**, and **flaps FULL**. The route's top of descent is early, approximately **46 minutes after takeoff** according to the flight log, so start arrival preparation promptly.
 
 ## 2. Cold and dark — establishing electrical power
 
@@ -229,11 +265,11 @@ During cruise, review your progress against the flight plan:
 - Arrival STAR, transition and approach chart.
 - Suitable descent planning and approach configuration.
 
-Because Hakodate–Haneda is a comparatively short flight, we'll begin planning the descent early.
+Because Hong Kong–Taipei is a comparatively short flight, we'll begin planning the descent early.
 
 ## 12. Preparing the arrival
 
-Obtain the latest Haneda weather and check the appropriate arrival and approach charts. Choose the runway, STAR and approach that match the conditions and any ATC clearance.
+Obtain the latest Taiwan Taoyuan weather and check the appropriate arrival and approach charts. Choose the runway, STAR and approach that match the conditions and any ATC clearance.
 
 Use the MFD flight-plan pages to enter or revise the arrival. Inspect the route in PLAN mode again, including its constraints and any discontinuities. Do not assume the arrival automatically selected by a planning service is the runway you'll actually use.
 
@@ -326,4 +362,4 @@ Read the **FMA**, not just the FCU. The FMA tells you which vertical, lateral an
 - [A380 video framework](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2) — for teaching structure only, not A350 procedures.
 - [Horizon Boeing 787 full-flight tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/) — our earlier tutorial using the same Hakodate–Haneda route.
 
-*Editorial note: This is the first written draft. Before publication, add our own cockpit screenshots (OIS, MFD, overhead, FCU, takeoff performance, arrival and landing), verify all cockpit flows against the installed aircraft version, and test the RJCH–RJTT flight end to end.*
+*Editorial note: This is the first written draft. Before publication, add our own cockpit screenshots (OIS, MFD, overhead, FCU, takeoff performance, arrival and landing), verify all cockpit flows against the installed aircraft version, and test the VHHH–RCTP flight end to end.*
