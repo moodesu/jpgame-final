@@ -1,0 +1,8 @@
+{{- with .Page.Resources.GetMatch "a350-overhead-precise-annotations.png" -}}
+<figure class="a350-overhead-reference">
+  <a href="{{ .RelPermalink }}" target="_blank" rel="noopener" aria-label="Open full-size annotated A350 overhead panel">
+    <img src="{{ .RelPermalink }}" alt="Original A350 overhead screenshot annotated to identify BAT 1, BAT EMER 1, BAT EMER 2, BAT 2, external power 1 and 2, and the ADIRS panel" width="{{ .Width }}" height="{{ .Height }}" loading="lazy" />
+  </a>
+  <figcaption>A350 electrical power-up: battery switches, external power switches and ADIRS. Select the image to view it at full size.</figcaption>
+</figure>
+{{- end -}}
