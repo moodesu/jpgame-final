@@ -10,6 +10,7 @@
       <input id="jpv2-guide-search" type="search" placeholder="Search aircraft, G1000, Honeycomb, ILS…" autocomplete="off" />
     </div>
   </header>
+  <div class="jpv2-a350-entry"><a href="{{ "/guides/a350/" | relURL }}" style="display:block;padding:18px 22px;border:1px solid var(--border);border-radius:12px;background:var(--entry);font-weight:800;color:var(--primary);margin-top:22px">Airbus A350 guide collection → <span style="display:block;font-size:.88rem;font-weight:400;color:var(--secondary);margin-top:4px">Full flight, SimBrief and OIS tutorials</span></a></div>
   <div class="jpv2-directory-tools" role="group" aria-label="Filter guides by topic">
     <button type="button" class="active" data-topic="all" aria-pressed="true">All guides <span>{{ len $pages }}</span></button>
     <button type="button" data-topic="aircraft" aria-pressed="false">Aircraft</button>
@@ -22,8 +23,8 @@
     {{ $path := lower .File.Path }}
     {{ $topic := "navigation" }}
     {{ $topicLabel := "Navigation & planning" }}
-    {{ if or (in $path "boeing-787") (in $path "setting-up-controllers") }}
-      {{ if in $path "boeing-787" }}{{ $topic = "aircraft" }}{{ $topicLabel = "Aircraft & procedures" }}{{ else }}{{ $topic = "hardware" }}{{ $topicLabel = "Controllers & hardware" }}{{ end }}
+    {{ if or (in $path "boeing-787") (in $path "a350") (in $path "setting-up-controllers") }}
+      {{ if or (in $path "boeing-787") (in $path "a350") }}{{ $topic = "aircraft" }}{{ $topicLabel = "Aircraft & procedures" }}{{ else }}{{ $topic = "hardware" }}{{ $topicLabel = "Controllers & hardware" }}{{ end }}
     {{ else if or (in $path "honeycomb") (in $path "mobiflight") }}
       {{ $topic = "hardware" }}{{ $topicLabel = "Controllers & hardware" }}
     {{ end }}
