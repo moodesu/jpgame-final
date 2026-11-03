@@ -78,6 +78,10 @@ For arrival the OFP lists **RCTP runway 05R**, **26°C**, QNH **1020 hPa**, and 
 
 ## 2. Cold and dark — establishing electrical power
 
+{{< a350-overhead-image >}}
+
+
+
 From the captain's seat, look up at the overhead. We'll initially power the aircraft from ground power while the engines are off.
 
 | Control | Action |
