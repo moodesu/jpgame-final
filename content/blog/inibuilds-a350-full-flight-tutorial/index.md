@@ -283,7 +283,7 @@ Use the FMS's descent profile as a guide, but monitor your actual distance, spee
 
 Set the altitude cleared by ATC or appropriate for the procedure. Use managed descent when applicable and verify the descent mode on the FMA. Selected vertical modes may be useful when you need to comply with particular clearances, but always crosscheck the aircraft's path against the procedure.
 
-As you approach Haneda:
+As you approach Taiwan Taoyuan:
 
 1. Confirm the assigned approach and runway.
 2. Set the correct local altimeter reference at the appropriate transition level.
@@ -360,6 +360,6 @@ Read the **FMA**, not just the FCU. The FMA tells you which vertical, lateral an
 
 - [iniBuilds A350 Airliner official aircraft manual](https://forum.inibuilds.com/topic/25085-a350-aircraft-manual/) — the primary reference for the procedures in this guide.
 - [A380 video framework](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2) — for teaching structure only, not A350 procedures.
-- [Horizon Boeing 787 full-flight tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/) — our earlier tutorial using the same Hakodate–Haneda route.
+- [Horizon Boeing 787 full-flight tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/) — our earlier tutorial, which uses a different route (Hakodate–Haneda).
 
 *Editorial note: This is the first written draft. Before publication, add our own cockpit screenshots (OIS, MFD, overhead, FCU, takeoff performance, arrival and landing), verify all cockpit flows against the installed aircraft version, and test the VHHH–RCTP flight end to end.*
