@@ -108,6 +108,8 @@ You'll use the OIS to import information and calculate performance, the MFD to r
 
 ## 4. Connecting SimBrief and loading the aircraft
 
+**First time setting up SimBrief?** See the separate [guide to connecting SimBrief to the iniBuilds A350](/blog/connect-simbrief-inibuilds-a350/) before importing your flight.
+
 **Want to create the flight plan directly from the cockpit?** See my separate guide: [How to create a SimBrief flight plan in the A350 OIS](/blog/inibuilds-a350-ois-simbrief-flight-planning/). It covers connecting your accounts, the FLT OPS PLAN form, generating an OFP, and requesting the route on the FMS. The steps below cover importing an already-generated plan.
 
 On the OIS, go to **OPTIONS → 3RD PARTY** and enter your **SimBrief User ID**. If you use Navigraph, you can also link that account for charts.
