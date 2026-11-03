@@ -2,7 +2,7 @@
 authors = ["JPGame"]
 title = "iniBuilds Airbus A350 Full Flight Tutorial — MSFS 2024"
 date = 2026-11-03
-draft = true
+draft = false
 description = "A step-by-step iniBuilds A350 tutorial in MSFS 2024: cold and dark at Hakodate, SimBrief and flight management setup, takeoff, descent, ILS approach and shutdown at Tokyo Haneda."
 tags = ["MSFS 2024", "A350", "iniBuilds", "SimBrief"]
 categories = ["MSFS", "Tutorial"]
