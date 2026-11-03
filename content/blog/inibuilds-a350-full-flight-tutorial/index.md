@@ -82,14 +82,17 @@ From the captain's seat, look up at the overhead. We'll initially power the airc
 
 | Control | Action |
 |---|---|
-| Batteries 1–4 | ON |
+| BAT 1 | ON |
+| BAT EMER 1 | ON |
+| BAT EMER 2 | ON |
+| BAT 2 | ON |
 | External power 1 and 2 | Select when available |
 | ADIRS selectors 1–3 | NAV |
 | Parking brake | SET / confirm |
 | Engine master switches | OFF |
 | Engine start selector | NORM |
 
-The four batteries provide initial electrical power. External power supplies the aircraft's main electrical system without running an engine. The **ADIRS** (Air Data Inertial Reference System) provides attitude, position and other information needed by the displays and navigation systems. Set all three to NAV and allow initialization to complete.
+The A350 has two main batteries (BAT 1 and BAT 2) and two emergency batteries (BAT EMER 1 and BAT EMER 2). All four are controlled separately by the labelled pushbuttons on the central ELEC overhead panel. For the initial power-up, select them ON in the order BAT 1 → BAT EMER 1 → BAT EMER 2 → BAT 2. External power supplies the aircraft's main electrical system without running an engine. The **ADIRS** (Air Data Inertial Reference System) provides attitude, position and other information needed by the displays and navigation systems. Set all three to NAV and allow initialization to complete.
 
 If external power isn't available, use the OIS ground-services page to request it or follow the APU-powered setup in the in-sim checklist.
 
