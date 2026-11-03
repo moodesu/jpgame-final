@@ -1,0 +1,113 @@
+{{- /* Flight-phase jump navigator: links to real headings, never fabricated fragment IDs. */ -}}
+<nav class="a350-flight-nav" id="a350-flight-nav" aria-label="Jump to your current flight phase">
+  <div class="a350-flight-nav__head">
+    <div>
+      <span class="a350-flight-nav__eyebrow">A350 / IN-FLIGHT REFERENCE</span>
+      <h2>Where are you in the flight?</h2>
+      <p>Select a phase to jump straight to the appropriate instructions.</p>
+    </div>
+    <a class="a350-flight-nav__toplink" href="#a350-flight-nav">Flight phases</a>
+  </div>
+  <div class="a350-flight-nav__groups" id="a350-flight-nav-groups">
+    <p>Use the article's table of contents to jump to a section.</p>
+  </div>
+  <div class="a350-flight-nav__bottom">
+    <span id="a350-flight-nav-status" role="status" aria-live="polite">Choose your current phase</span>
+    <a href="#a350-flight-nav" class="a350-flight-nav__return" id="a350-flight-nav-return">Back to flight phases ↑</a>
+  </div>
+</nav>
+<script>
+(() => {
+  const nav = document.getElementById('a350-flight-nav');
+  const groupsEl = document.getElementById('a350-flight-nav-groups');
+  const statusEl = document.getElementById('a350-flight-nav-status');
+  if (!nav || !groupsEl || !statusEl) return;
+
+  const phases = [
+    { group: '01 / Planning & preparation', steps: [
+      [1, 'Flight plan'], [2, 'Power up'], [3, 'Know the cockpit'],
+      [4, 'SimBrief & loading'], [5, 'FMS route'], [6, 'Takeoff performance'], [7, 'Cockpit checks']
+    ]},
+    { group: '02 / On the ground', steps: [
+      [8, 'Pushback & engine start'], [9, 'Taxi & before takeoff']
+    ]},
+    { group: '03 / Departure & cruise', steps: [
+      [10, 'Takeoff & climb'], [11, 'Cruise']
+    ]},
+    { group: '04 / Arrival & shutdown', steps: [
+      [12, 'Arrival preparation'], [13, 'Descent & approach'],
+      [14, 'Landing & shutdown'], [15, 'Troubleshooting']
+    ]}
+  ];
+  const article = nav.closest('article') || document.querySelector('.post-content') || document;
+  const headings = Array.from(article.querySelectorAll('h2[id]'));
+  const headingByNumber = new Map();
+  for (const heading of headings) {
+    const match = heading.textContent.trim().match(/^(\d+)\.\s/);
+    if (match) headingByNumber.set(Number(match[1]), heading);
+  }
+  if (!headingByNumber.size) return;
+  groupsEl.textContent = '';
+  const links = new Map();
+  const make = (tag, cls, value) => {
+    const el = document.createElement(tag);
+    if (cls) el.className = cls;
+    if (value) el.textContent = value;
+    return el;
+  };
+  for (const group of phases) {
+    const section = make('section', 'a350-flight-nav__group');
+    section.appendChild(make('h3', 'a350-flight-nav__group-title', group.group));
+    const list = make('div', 'a350-flight-nav__items');
+    for (const [number, title] of group.steps) {
+      const heading = headingByNumber.get(number);
+      if (!heading) continue;
+      const link = make('a', 'a350-flight-nav__item');
+      link.href = '#' + encodeURIComponent(heading.id);
+      link.appendChild(make('span', 'a350-flight-nav__item-num', String(number).padStart(2, '0')));
+      link.appendChild(make('span', 'a350-flight-nav__item-label', title));
+      link.appendChild(make('span', 'a350-flight-nav__item-arrow', '↗'));
+      link.addEventListener('click', () => {
+        setActive(number);
+      });
+      list.appendChild(link);
+      links.set(number, link);
+    }
+    section.appendChild(list);
+    groupsEl.appendChild(section);
+  }
+  function setActive(number) {
+    for (const [n, link] of links) {
+      const active = n === number;
+      link.classList.toggle('is-current', active);
+      if (active) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    }
+    const link = links.get(number);
+    statusEl.textContent = link ? 'Current section: ' + link.querySelector('.a350-flight-nav__item-label').textContent : 'Choose your current phase';
+  }
+  function updateFromLocation() {
+    let active = null;
+    const fragment = decodeURIComponent(location.hash.slice(1));
+    if (fragment) {
+      for (const [number, heading] of headingByNumber) {
+        if (heading.id === fragment) { active = number; break; }
+      }
+    }
+    if (active !== null) setActive(active);
+  }
+  window.addEventListener('hashchange', updateFromLocation);
+  updateFromLocation();
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          const match = entry.target.textContent.trim().match(/^(\d+)\.\s/);
+          if (match) setActive(Number(match[1]));
+        }
+      }
+    }, {rootMargin: '-12% 0px -70% 0px'});
+    headingByNumber.forEach(h => observer.observe(h));
+  }
+})();
+</script>
