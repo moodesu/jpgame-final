@@ -22,6 +22,8 @@ In this tutorial, I'll use **Hong Kong (VHHH) to Taiwan Taoyuan (RCTP)**, the ro
 
 Begin at a parking stand with the A350 powered by ground electrical power or the APU. Open the OIS and select **FLT OPS MENU**. You should be able to access the planning functions from here.
 
+> **First time using SimBrief with this aircraft?** Follow our [A350 SimBrief connection guide](/blog/connect-simbrief-inibuilds-a350/) before continuing.
+
 ## 2. Link your Navigraph and SimBrief accounts
 
 Before creating a plan, we need to connect the OIS to SimBrief and Navigraph.
