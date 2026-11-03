@@ -1,6 +1,6 @@
 # JP Game V2 preview. The production jp-game.com site is not changed.
 [build]
-  command = "hugo --gc --minify --baseURL https://jp-game-v2.netlify.app/"
+  command = "hugo --gc --minify --baseURL https://jp-gamer.netlify.app/"
   publish = "public"
 
 [build.environment]
