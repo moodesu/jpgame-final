@@ -18,7 +18,6 @@ The instructions are deliberately **flight-independent**: use the origin, destin
 
 The numbered actions distinguish **what to do** from **what to verify**. For actions not conclusively established in the recordings, follow the applicable in-sim aircraft checklist rather than treating an illustrative flow as authoritative.
 
-{{< a350-print >}}
 
 {{< a350-flight-nav >}}
 
