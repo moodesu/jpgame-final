@@ -1,0 +1,1485 @@
+%PDF-1.4
+%%%%%
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Outlines 132 0 R /PageMode /UseOutlines >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 23 /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 61 0 R 63 0 R 65 0 R 67 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [6 0 R 113 0 R] /Annots [43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 76 0 R] >>
+endobj
+6 0 obj
+<< /Length 2833 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (1) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.92 0.96 0.98 rg 47 620 502 119 re f
+BT /F2 43 Tf 0.12 0.42 0.64 rg 1 0 0 1 69 684 Tm (A350) Tj ET
+BT /F2 18 Tf 0.11 0.17 0.24 rg 1 0 0 1 69 652 Tm (COLD & DARK TO LANDING) Tj ET
+BT /F2 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 69 630 Tm (FLIGHT-TEST EDITION  /  VERSION 1.0) Tj ET
+BT /F1 12 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 573 Tm (A complete, flight-independent procedure for learning the iniBuilds Airbus A350) Tj ET
+BT /F1 12 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 554 Tm (in Microsoft Flight Simulator 2024. Includes OIS, SimBrief, FMS, performance,) Tj ET
+BT /F1 12 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 535 Tm (engine start, taxi, takeoff, cruise, ILS approach and landing.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 513 m 549 513 l S
+BT /F2 12 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 481 Tm (CONTENTS) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 455.5 Tm (How to use this guide) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 435.5 Tm (01 - Flight planning and preparation) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 415.5 Tm (02 - Cold and dark: electrical power) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 395.5 Tm (03 - OIS: SimBrief, fuel and payload) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 375.5 Tm (04 - FMS initialisation and company route) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 355.5 Tm (05 - FMS departure, arrival and route check) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 335.5 Tm (06 - Takeoff performance and FCU) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 315.5 Tm (07 - Cockpit and overhead checks) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 295.5 Tm (08 - Pushback and engine start) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 275.5 Tm (09 - Taxi and before takeoff) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 255.5 Tm (10 - Takeoff and initial climb) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 235.5 Tm (11 - Climb and cruise) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 215.5 Tm (12 - Arrival and landing performance) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 195.5 Tm (13 - ILS setup and intercept) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 175.5 Tm (14 - Final approach and landing) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 155.5 Tm (15 - Quick reference: phase gates) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 135.5 Tm (16 - Troubleshooting checkpoints) Tj ET
+BT /F1 9.5 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 115.5 Tm (17 - Flight test notes and corrections) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [8 0 R 114 0 R] /Annots [77 0 R 78 0 R] >>
+endobj
+8 0 obj
+<< /Length 2209 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (2) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (How to use this guide) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Version 1.0 - flight-test edition. iniBuilds Airbus A350 in Microsoft Flight Simulator 2024.) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 697 Tm (This is a generic simulator walkthrough, not an aircraft operating manual. Use your current) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 682 Tm (SimBrief OFP, published charts, current weather, and the in-sim checklist. Record corrections on) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 667 Tm (the final pages.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 657 m 549 657 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 632 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 632 Tm (Load the aircraft at a parking stand with cold-and-dark state selected.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 611 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 611 Tm (Keep the SimBrief OFP and departure/arrival charts accessible.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 590 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 590 Tm (Use the CHECK and VERIFY lines as hold points before moving to the next stage.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 569 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 569 Tm (Runways, speeds, weights and thrust settings always come from the current flight; do not) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 554 Tm (copy values from a different flight.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 533 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 533 Tm (When a step differs in your installed aircraft version, note what the screen actually) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 518 Tm (shows rather than guessing.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [10 0 R 115 0 R] /Annots [79 0 R 80 0 R] >>
+endobj
+10 0 obj
+<< /Length 2125 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (3) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (01 - Flight planning and preparation) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: prepare a valid OFP and know the route, loading, constraints and weather before powering) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 697 Tm (the cockpit.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 687 m 549 687 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 662 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 662 Tm (01. Generate or retrieve an OFP in SimBrief for the correct A350 variant.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 641 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm (02. Note FROM, TO, ALTN, callsign, registration, route, cruise altitude and cost index.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (03. Note ZFW, block fuel, planned taxi fuel, trip fuel, alternate fuel and final reserve.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (04. Check planned runway, SID, STAR, transition and approach against current charts and) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 584 Tm (weather.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 563 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 563 Tm (05. Confirm the aircraft is at the intended parking stand; set/verify parking brake.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 542 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 542 Tm (VERIFY: The OFP is current, the aircraft profile is correct, and all flight-dependent) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 527 Tm (figures are identified.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [12 0 R 116 0 R] /Annots [81 0 R 82 0 R] >>
+endobj
+12 0 obj
+<< /Length 2506 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (4) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (02 - Cold and dark: electrical power) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: make the displays available and start navigation alignment. The A350 overhead has two main) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 697 Tm (batteries and two emergency batteries.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 687 m 549 687 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 662 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 662 Tm (01. Confirm parking brake SET; engine masters OFF; engine start selector NORM.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 641 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm (02. On ELEC overhead select BAT 1 ON.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (03. Select BAT EMER 1 ON and BAT EMER 2 ON.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (04. Select BAT 2 ON.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 578 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (05. Request ground services/power where available; select EXT 1 and/or EXT 2 when AVAIL.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (06. Confirm electrical power indications and powered displays.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (07. Set all three ADIRS rotary selectors to NAV; allow the alignment to complete.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 515 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 515 Tm (08. Check for any relevant ECAM or navigation accuracy messages before continuing.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 494 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 494 Tm (VERIFY: Electrical supply established; displays powered; ADIRS alignment correct; no) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 479 Tm (unexplained warnings.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [14 0 R 117 0 R] /Annots [83 0 R 84 0 R] >>
+endobj
+14 0 obj
+<< /Length 2244 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (5) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (03 - OIS: SimBrief, fuel and payload) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: retrieve the OFP and apply the actual aircraft loading. OIS import and FMS company-route) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 697 Tm (request are separate steps.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 687 m 549 687 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 662 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 662 Tm (01. On the OIS open FLT OPS MENU.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 641 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm (02. If required, open OPTIONS > 3RD PARTY and verify the numeric SimBrief User ID.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (03. Open FLT OPS STS and select SIMBRIEF IMPORT.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (04. Check the returned origin, destination and flight identifiers.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 578 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (05. Open LOADSHEET; compare ZFW and fuel with the OFP.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (06. Use SET ZFW and SET FUEL as appropriate to load the aircraft.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (07. Recheck actual aircraft loading; do not assume the OFP itself physically loaded fuel.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 515 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 515 Tm (VERIFY: Correct SimBrief flight shown; aircraft ZFW and fuel match the intended plan.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [16 0 R 118 0 R] /Annots [85 0 R 86 0 R] >>
+endobj
+16 0 obj
+<< /Length 2025 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (6) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (04 - FMS initialisation and company route) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: transfer the SimBrief route to the MFD/FMS and confirm that it is active.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. Open FMS MFD ACTIVE / INIT.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. Verify navigation database and initialisation state.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Select CPNY F-PLN REQUEST and wait for a response.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (04. Reopen ACTIVE / INIT and confirm FROM, TO, ALTN, CPNY RTE, FLT NO, CRZ FL and CI.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (05. Open ACTIVE / F-PLN to check route legs have populated.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 572 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 572 Tm (06. If a request remains pending or the route is empty, do not treat it as successfully) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (imported.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (VERIFY: Company route imported; initialisation values match the current OFP.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [18 0 R 119 0 R] /Annots [87 0 R 88 0 R] >>
+endobj
+18 0 obj
+<< /Length 2804 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (7) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (05 - FMS departure, arrival and route check) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: select runway/procedures and activate only reviewed temporary changes.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. From FMS flight-plan pages open DEPARTURE.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. Choose the assigned/planned runway, then the applicable SID and transition.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Review TMPY departure legs; compare the path and restrictions with the chart.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (04. Press INSERT TMPY to activate the reviewed departure.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (05. Open destination ARRIVAL; select runway, approach, STAR, VIA and transition as) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (appropriate.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (06. Review the TMPY arrival and approach data; INSERT TMPY only after verifying.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (07. In F-PLN/PLAN view inspect every leg from departure to destination.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 515 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 515 Tm (08. Investigate route discontinuities; do not delete them automatically.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 494 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 494 Tm (09. If requesting winds, confirm the uplink succeeds; a pending request is not) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 479 Tm (confirmation.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 458 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 458 Tm (VERIFY: Correct active departure and arrival; no unexpected gaps or restrictions; route) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 443 Tm (matches OFP.) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [20 0 R 120 0 R] /Annots [89 0 R 90 0 R] >>
+endobj
+20 0 obj
+<< /Length 2622 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (8) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (06 - Takeoff performance and FCU) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: calculate flight-specific speeds/thrust and ensure correct initial guidance.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. In the OIS open T.O PERF.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. Synchronise available route, runway, weight and weather details as supported.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Check runway length/condition, wind, QNH, temperature, takeoff mass, anti-ice and flap) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (setting.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (04. Select COMPUTE or the appropriate calculation control for your aircraft version.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 578 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (05. Review resulting V1, VR, V2, FLEX/TOGA and takeoff configuration.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (06. Transfer performance to FMS using SEND TO FMGS or equivalent.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (07. Check takeoff performance is present on the FMS.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 515 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 515 Tm (08. Set departure QNH and the initial cleared/published FCU altitude.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 494 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 494 Tm (09. Confirm flight directors, lateral mode and the FMA armed/active guidance.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 473 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 473 Tm (VERIFY: Takeoff values were computed for current conditions and confirmed on the FMS.) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [22 0 R 121 0 R] /Annots [91 0 R 92 0 R] >>
+endobj
+22 0 obj
+<< /Length 2297 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (9) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (07 - Cockpit and overhead checks) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: complete normal pre-start configuration without assuming a generic switch position is) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 697 Tm (correct for every flight.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 687 m 549 687 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 662 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 662 Tm (01. Review ECAM status and any outstanding messages.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 641 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm (02. Check aircraft electrical, fuel, air/bleed, hydraulic and anti-ice configurations.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (03. Confirm ADIRS alignment complete and navigation status normal.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (04. Check oxygen, signs and exterior lighting for the current phase.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 578 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (05. Confirm flight control indications and FMS/FCU values as appropriate.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (06. Brief the departure, runway, initial altitude, thrust and rejected-takeoff plan.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (07. Complete the applicable cockpit preparation/before-start checklist.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 515 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 515 Tm (VERIFY: No unexplained indications; aircraft is ready for pushback and engine start.) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [24 0 R 122 0 R] /Annots [93 0 R 94 0 R] >>
+endobj
+24 0 obj
+<< /Length 2946 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (10) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (08 - Pushback and engine start) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: secure the stand, provide a suitable start source and verify both engines have started) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 697 Tm (normally.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 687 m 549 687 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 662 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 662 Tm (01. On OIS GROUND, close required doors and remove/disconnect equipment when appropriate.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 641 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm (02. Confirm APU or other approved electrical/pneumatic start source is available.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (03. Switch beacon ON before starting engines.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (04. Set surveillance/transponder controls as required.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 578 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (05. Obtain pushback/start clearance if operating with ATC.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (06. Begin pushback. Maintain parking brake/tug coordination per the ground service used.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (07. Follow the aircraft start checklist: select IGN/START as required and start engines in) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 521 Tm (the specified order.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 500 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 500 Tm (08. Observe engine parameters until each start is confirmed; check ECAM for abnormalities.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 479 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 479 Tm (09. Return engine start selector to NORM and complete the after-start flow.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 458 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 458 Tm (10. Ensure the tug is disconnected and ground area clear before taxiing.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 437 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 437 Tm (VERIFY: Both engines stable; no start faults; after-start checklist completed.) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [26 0 R 123 0 R] /Annots [95 0 R 96 0 R] >>
+endobj
+26 0 obj
+<< /Length 2465 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (11) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (09 - Taxi and before takeoff) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: configure the flight controls and aircraft for the departure runway.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. Confirm taxi clearance, ground-service disconnection and correct taxi route.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. Perform a flight-control check and observe the expected indication.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Set flaps to the calculated takeoff setting; arm spoilers when appropriate.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (04. Set rejected-takeoff autobrake mode as required.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (05. Run T.O CONFIG and review takeoff memo; resolve relevant warnings.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 572 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 572 Tm (06. Taxi at a controlled speed, using the airport navigation map if available.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 551 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 551 Tm (07. At the holding point recheck runway/SID, initial altitude, V-speeds and thrust) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm (setting.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 515 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 515 Tm (08. Complete the before-takeoff checklist and configure exterior lights.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 494 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 494 Tm (VERIFY: Takeoff memo satisfied; flight controls, flap setting, route and speeds correct.) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [28 0 R 124 0 R] /Annots [97 0 R 98 0 R] >>
+endobj
+28 0 obj
+<< /Length 2344 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (12) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (10 - Takeoff and initial climb) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: take off using calculated thrust and monitor the actual FMA modes.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. Confirm runway identification and applicable ATC clearance.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. Align with runway centreline and apply the calculated FLEX or TOGA thrust.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Confirm engine response, speed indications and FMA takeoff modes.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (04. Maintain directional control. At VR rotate smoothly.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (05. Confirm positive climb and retract landing gear.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 572 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 572 Tm (06. Follow flight-director commands; engage AP when appropriate.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 551 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 551 Tm (07. Monitor thrust reduction and acceleration prompts; retract flaps within speed limits.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 530 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 530 Tm (08. Check the FMA after every major autopilot or FCU input.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 509 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 509 Tm (VERIFY: Correct lateral/vertical guidance, climb path, flap retraction and thrust mode.) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [30 0 R 125 0 R] /Annots [99 0 R 100 0 R] >>
+endobj
+30 0 obj
+<< /Length 1975 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (13) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (11 - Climb and cruise) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: monitor the aircraft and prepare the arrival early enough to avoid rushing.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. Comply with cleared altitude and published SID constraints.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. Verify autopilot lateral and vertical modes on the FMA.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Compare fuel, route progress and arrival estimate with the OFP.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (04. Observe speed/altitude restrictions through climb.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (05. Obtain destination weather, expected runway and the current approach chart.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 572 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 572 Tm (06. Review the STAR, approach, minima and missed approach before top of descent.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 551 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 551 Tm (VERIFY: Route progressing correctly; fuel appropriate; approach plan understood.) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [32 0 R 126 0 R] /Annots [101 0 R 102 0 R] >>
+endobj
+32 0 obj
+<< /Length 2200 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (14) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (12 - Arrival and landing performance) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: configure the destination approach and calculate landing data for current conditions.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. Check destination ATIS/weather and any ATC assigned approach.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. In FMS ARRIVAL verify runway, STAR, VIA, transition and approach.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Review TMPY changes and use INSERT TMPY only after checking.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (04. Inspect route continuity and all altitude/speed constraints.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (05. Open OIS LDG PERF and verify landing mass, runway, condition and winds.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 572 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 572 Tm (06. Calculate landing performance and note the expected VAPP and landing configuration.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 551 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 551 Tm (07. Brief approach minima, runway exit and missed-approach plan.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 530 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 530 Tm (VERIFY: Arrival and landing plan match weather, charts and any ATC clearance.) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [34 0 R 127 0 R] /Annots [103 0 R 104 0 R] >>
+endobj
+34 0 obj
+<< /Length 3081 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (15) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (13 - ILS setup and intercept) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: establish correct ILS guidance before descending on the glideslope.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. Confirm the ILS approach is entered in the FMS and active route.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. On the FMS PERF APPR page enter/verify QNH, temperature, wind, VAPP, minima and) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm (landing configuration as applicable.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (03. On RAD NAV, verify the ILS identifier, frequency and inbound course against the chart.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (04. Select LS to display localiser and glideslope deviation information on the PFD.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 578 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (05. Follow the arrival/intercept clearance; be at the published intercept altitude,) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 563 Tm (usually below the glideslope.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 542 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 542 Tm (06. Activate approach phase if not already active and if required by the aircraft mode.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 521 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 521 Tm (07. Press FCU APPR at an appropriate intercept position; monitor the FMA.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 500 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 500 Tm (08. Check LOC and G/S are armed \\\(blue\\\), then capture \\\(LOC* / G/S*\\\) and track \\\(LOC /) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 485 Tm (G/S in green\\\).) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 464 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 464 Tm (09. If only localiser captures, check altitude/path and glideslope validity; do not assume) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 449 Tm (G/S capture.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 428 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 428 Tm (VERIFY: Correct ILS tuned, both lateral and vertical guidance confirmed on FMA, safe) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 413 Tm (intercept path.) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [36 0 R 128 0 R] /Annots [105 0 R 106 0 R] >>
+endobj
+36 0 obj
+<< /Length 2882 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (16) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (14 - Final approach and landing) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Goal: become stabilised, complete the landing checklist and either land or go around.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (01. Monitor lateral and vertical path, speed and altitude on the PFD.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (02. Extend flaps progressively within their indicated speed limits.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (03. Select landing gear DOWN and final landing configuration at the appropriate point.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (04. Verify approach speed, landing checklist, gear and landing indications.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (05. Check the FMA: LOC and G/S tracking; if planning autoland, verify suitable) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm (runway/aircraft capability and required AP configuration.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm (06. For a manual landing, disconnect AP at a suitable point and maintain the intended) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 542 Tm (flight path.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 521 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 521 Tm (07. Maintain a stabilised approach. If unstable or guidance is unreliable, go around.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 500 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 500 Tm (08. At touchdown monitor spoilers/deceleration; use reverse thrust and brakes) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 485 Tm (appropriately.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 464 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 464 Tm (09. Vacate the runway when safe and perform the after-landing checklist.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 443 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 443 Tm (VERIFY: Landing complete, deceleration controlled, runway vacated safely.) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [38 0 R 129 0 R] /Annots [107 0 R 108 0 R] >>
+endobj
+38 0 obj
+<< /Length 2655 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (17) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (15 - Quick reference: phase gates) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Use this sheet at each transition; it is a memory aid, not a substitute for the in-sim) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 697 Tm (checklist.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 687 m 549 687 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 662 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 662 Tm ([ ] OFP/aircraft version and current weather confirmed) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 641 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm ([ ] Batteries, power and ADIRS established) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm ([ ] OIS SimBrief import and actual fuel/payload checked) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm ([ ] Company F-PLN, SID, STAR, approach and discontinuities reviewed) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 578 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 578 Tm ([ ] Takeoff performance computed, transferred and verified) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 557 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 557 Tm ([ ] Before-start and engine-start checks complete) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 536 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 536 Tm ([ ] T.O CONFIG and before-takeoff checklist complete) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 515 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 515 Tm ([ ] FMA guidance checked after takeoff and in climb) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 494 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 494 Tm ([ ] Arrival and landing performance reviewed) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 473 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 473 Tm ([ ] ILS frequency/course, LS indication, LOC and G/S capture checked) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 452 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 452 Tm ([ ] Gear/flaps, VAPP, stabilised approach and landing checks complete) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [40 0 R 130 0 R] /Annots [109 0 R 110 0 R] >>
+endobj
+40 0 obj
+<< /Length 2683 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (18) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (16 - Troubleshooting checkpoints) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Use these prompts to diagnose symptoms observed in the cockpit.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (FMS route missing: check numeric SimBrief ID, current OFP and CPNY F-PLN REQUEST status.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (Arrival/departure still yellow: confirm the TMPY revision was reviewed and INSERT TMPY) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 641 Tm (completed.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 620 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 620 Tm (DISCONTINUITY: review chart/procedure before altering; some gaps are intentional.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 599 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 599 Tm (Takeoff speeds missing: check OIS loadsheet, computed takeoff data and SEND TO FMGS) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 584 Tm (transfer.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 563 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 563 Tm (FMA differs from expected mode: check managed/selected guidance rather than relying on FCU) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 548 Tm (selection alone.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 527 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 527 Tm (No G/S capture: check the ILS tune, intercept position/altitude and APPR arming.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 506 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 506 Tm (DEST EFOB BELOW MIN: compare predicted arrival fuel with FMS minimum and OFP) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 491 Tm (reserve/alternate; reducing the threshold does not add fuel.) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 470 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 470 Tm (Navigation warning: check ADIRS/alignment and applicable system indications; do not ignore) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 455 Tm (abnormal indications.) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [42 0 R 131 0 R] /Annots [111 0 R 112 0 R] >>
+endobj
+42 0 obj
+<< /Length 2914 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  INIBUILDS AIRBUS A350) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 31 Tm (SIMULATOR FOLLOW-ALONG  |  V1.0  |  04 NOV 2026) Tj ET
+BT /F2 8 Tf 0.37 0.43 0.50 rg 1 0 0 1 544 31 Tm (19) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 49 m 549 49 l S
+0.12 0.42 0.64 rg 47 730 4 26 re f
+BT /F2 15 Tf 0.11 0.17 0.24 rg 1 0 0 1 61 741 Tm (17 - Flight test notes and corrections) Tj ET
+BT /F1 10 Tf 0.37 0.43 0.50 rg 1 0 0 1 47 712 Tm (Fill in after your next test flight so the next edition matches your installed iniBuilds A350.) Tj ET
+0.8 0.84 0.87 RG 0.65 w 47 702 m 549 702 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 677 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 677 Tm (Aircraft version/build: ___________________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 656 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 656 Tm (SimBrief route: ___________________________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 635 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 635 Tm (Departure / runway / SID: ________________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 614 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 614 Tm (Arrival / runway / STAR / ILS: ___________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 593 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 593 Tm (Steps that matched the simulator: __________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 572 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 572 Tm (Steps that differed or were missing: ________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 551 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 551 Tm (Exact FMA indications during ILS intercept: ________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 530 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 530 Tm (Unexpected warnings and when they appeared: _______________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 509 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 509 Tm (Screenshot/video timestamps for revision: __________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 488 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 488 Tm (Additional notes: __________________________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 467 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 467 Tm (__________________________________________________________________) Tj ET
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 446 Tm (>) Tj ET
+BT /F1 10 Tf 0.11 0.17 0.24 rg 1 0 0 1 64 446 Tm (__________________________________________________________________) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 451.5 540.0 470.5] /Border [0 0 0] /A << /S /GoTo /D [7 0 R /Fit] >> >>
+endobj
+44 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 431.5 540.0 450.5] /Border [0 0 0] /A << /S /GoTo /D [9 0 R /Fit] >> >>
+endobj
+45 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 411.5 540.0 430.5] /Border [0 0 0] /A << /S /GoTo /D [11 0 R /Fit] >> >>
+endobj
+46 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 391.5 540.0 410.5] /Border [0 0 0] /A << /S /GoTo /D [13 0 R /Fit] >> >>
+endobj
+47 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 371.5 540.0 390.5] /Border [0 0 0] /A << /S /GoTo /D [15 0 R /Fit] >> >>
+endobj
+48 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 351.5 540.0 370.5] /Border [0 0 0] /A << /S /GoTo /D [17 0 R /Fit] >> >>
+endobj
+49 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 331.5 540.0 350.5] /Border [0 0 0] /A << /S /GoTo /D [19 0 R /Fit] >> >>
+endobj
+50 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 311.5 540.0 330.5] /Border [0 0 0] /A << /S /GoTo /D [21 0 R /Fit] >> >>
+endobj
+51 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 291.5 540.0 310.5] /Border [0 0 0] /A << /S /GoTo /D [23 0 R /Fit] >> >>
+endobj
+52 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 271.5 540.0 290.5] /Border [0 0 0] /A << /S /GoTo /D [25 0 R /Fit] >> >>
+endobj
+53 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 251.5 540.0 270.5] /Border [0 0 0] /A << /S /GoTo /D [27 0 R /Fit] >> >>
+endobj
+54 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 231.5 540.0 250.5] /Border [0 0 0] /A << /S /GoTo /D [29 0 R /Fit] >> >>
+endobj
+55 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 211.5 540.0 230.5] /Border [0 0 0] /A << /S /GoTo /D [31 0 R /Fit] >> >>
+endobj
+56 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 191.5 540.0 210.5] /Border [0 0 0] /A << /S /GoTo /D [33 0 R /Fit] >> >>
+endobj
+57 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 171.5 540.0 190.5] /Border [0 0 0] /A << /S /GoTo /D [35 0 R /Fit] >> >>
+endobj
+58 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 151.5 540.0 170.5] /Border [0 0 0] /A << /S /GoTo /D [37 0 R /Fit] >> >>
+endobj
+59 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 131.5 540.0 150.5] /Border [0 0 0] /A << /S /GoTo /D [39 0 R /Fit] >> >>
+endobj
+60 0 obj
+<< /Type /Annot /Subtype /Link /Rect [45.0 111.5 540.0 130.5] /Border [0 0 0] /A << /S /GoTo /D [41 0 R /Fit] >> >>
+endobj
+61 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 62 0 R /Annots [69 0 R] >>
+endobj
+62 0 obj
+<< /Length 3008 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  AIRBUS A350  /  SIMBRIEF OFP REFERENCE) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 31 Tm (SAMPLE OFP: WAAA - WSSS  |  NOT FOR REAL-WORLD NAVIGATION) Tj ET
+BT /F2 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 535 31 Tm (20) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 49 m 549 49 l S
+BT /F2 17 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 751 Tm (Reading the sample SimBrief OFP) Tj ET
+BT /F1 10 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 727 Tm (WAAA to WSSS  /  EVTWF2602  /  04 Nov 2026) Tj ET
+0.94 0.97 0.98 rg 47 679 502 23 re f
+BT /F2 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 686 Tm (REFERENCE) Tj ET
+BT /F2 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 686 Tm (EXAMPLE VALUE) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 686 Tm (OFP PAGE) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 657 Tm (Flight / aircraft) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 657 Tm (EVTWF2602 / A350-900 Trent XWB-84) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 657 Tm (1) Tj ET
+0.94 0.97 0.98 rg 47 621 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 628 Tm (Origin / destination / alternate) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 628 Tm (WAAA / WSSS / WMKD) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 628 Tm (1) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 599 Tm (Cruise level / cost index) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 599 Tm (FL400 / CI 15) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 599 Tm (1) Tj ET
+0.94 0.97 0.98 rg 47 563 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 570 Tm (Planned route) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 570 Tm (GURNI1B, W35, L504, T22, UGEBO1A) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 570 Tm (2) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 541 Tm (ZFW / estimated takeoff mass) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 541 Tm (173,578 kg / 193,572 kg) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 541 Tm (1) Tj ET
+0.94 0.97 0.98 rg 47 505 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 512 Tm (Block / takeoff fuel) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 512 Tm (20,243 kg / 19,994 kg) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 512 Tm (1) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 483 Tm (Takeoff runway / landing runway) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 483 Tm (WAAA 21 / WSSS 02L) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 483 Tm (2, 9) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 222 m 549 222 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 201 Tm (HOW TO USE THESE VALUES) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 180 Tm (The values are examples from your uploaded OFP, not permanent entries for every flight.) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 164 Tm (The next pages highlight the same text groups as they appear in the SimBrief report.) Tj ET
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+63 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 64 0 R /Annots [70 0 R 71 0 R] >>
+endobj
+64 0 obj
+<< /Length 3453 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  AIRBUS A350  /  SIMBRIEF OFP REFERENCE) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 31 Tm (SAMPLE OFP: WAAA - WSSS  |  NOT FOR REAL-WORLD NAVIGATION) Tj ET
+BT /F2 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 535 31 Tm (21) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 49 m 549 49 l S
+BT /F2 17 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 751 Tm (OFP extract A - Route and flight identity) Tj ET
+BT /F1 10 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 727 Tm (Read the flight header \(page 1\) and ROUTING block \(page 2\)) Tj ET
+0.91 0.95 0.98 rg 47 679 502 24 re f
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 58 686 Tm (OFP PAGE 1 - FLIGHT SUMMARY) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 657 Tm (FLT / DATE) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 657 Tm (EVTWF2602 / 04NOV2026) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 657 Tm () Tj ET
+0.94 0.97 0.98 rg 47 621 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 628 Tm (AIRCRAFT) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 628 Tm (A350-900 / TRENT XWB-84) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 628 Tm () Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 599 Tm (DEPARTURE / DESTINATION) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 599 Tm (WAAA / WSSS) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 599 Tm () Tj ET
+0.94 0.97 0.98 rg 47 563 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 570 Tm (ALTERNATE) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 570 Tm (WMKD) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 570 Tm () Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 541 Tm (CRUISE SYSTEM) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 541 Tm (CI 15) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 541 Tm () Tj ET
+0.94 0.97 0.98 rg 47 505 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 512 Tm (FL STEPS) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 512 Tm (WAAA/0400/  \(FL400\)) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 512 Tm () Tj ET
+0.91 0.95 0.98 rg 47 476 502 24 re f
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 58 483 Tm (OFP PAGE 2 - ROUTING) Tj ET
+0.94 0.97 0.98 rg 47 447 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 454 Tm (DEPARTURE) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 454 Tm (WAAA/21 GURNI1B GURNI) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 454 Tm () Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 425 Tm (ENROUTE) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 425 Tm (W35 PNK L504 OBDOS T22 UGEBO) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 425 Tm () Tj ET
+0.94 0.97 0.98 rg 47 389 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 396 Tm (ARRIVAL) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 396 Tm (UGEBO1A WSSS/02L) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 396 Tm () Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 222 m 549 222 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 201 Tm (HOW TO USE THESE VALUES) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 180 Tm (In the FMS, enter/check the runway, SID, route and STAR against the latest OFP and charts.) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 164 Tm (A SimBrief routing is planning data; verify chart validity, weather, runway availability and ATC) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 151 Tm (clearance.) Tj ET
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+65 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 66 0 R /Annots [72 0 R 73 0 R] >>
+endobj
+66 0 obj
+<< /Length 3915 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  AIRBUS A350  /  SIMBRIEF OFP REFERENCE) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 31 Tm (SAMPLE OFP: WAAA - WSSS  |  NOT FOR REAL-WORLD NAVIGATION) Tj ET
+BT /F2 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 535 31 Tm (22) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 49 m 549 49 l S
+BT /F2 17 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 751 Tm (OFP extract B - Fuel and weights) Tj ET
+BT /F1 10 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 727 Tm (Fuel table and planned weights appear on page 1; weight summary repeats on page 3) Tj ET
+0.91 0.95 0.98 rg 47 679 502 24 re f
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 58 686 Tm (OFP PAGE 1 - PLANNED FUEL) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 657 Tm (TRIP) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 657 Tm (12,913) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 657 Tm () Tj ET
+0.94 0.97 0.98 rg 47 621 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 628 Tm (CONT 15 MIN) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 628 Tm (1,339) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 628 Tm () Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 599 Tm (ALTN) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 599 Tm (3,405) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 599 Tm () Tj ET
+0.94 0.97 0.98 rg 47 563 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 570 Tm (FINRES) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 570 Tm (2,337) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 570 Tm () Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 541 Tm (MINIMUM T/OFF FUEL) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 541 Tm (19,994) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 541 Tm () Tj ET
+0.94 0.97 0.98 rg 47 505 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 512 Tm (TAXI) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 512 Tm (249) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 512 Tm () Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 483 Tm (BLOCK FUEL) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 483 Tm (20,243) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 483 Tm () Tj ET
+0.94 0.97 0.98 rg 47 447 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 454 Tm (FMC INFO FINRES + ALTN) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 454 Tm (5,742) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 454 Tm () Tj ET
+0.91 0.95 0.98 rg 47 418 502 24 re f
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 58 425 Tm (OFP PAGE 1 - WEIGHTS) Tj ET
+0.94 0.97 0.98 rg 47 389 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 396 Tm (EST ZFW) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 396 Tm (173,578) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 396 Tm () Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 367 Tm (EST TOW) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 367 Tm (193,572) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 367 Tm () Tj ET
+0.94 0.97 0.98 rg 47 331 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 338 Tm (EST LAW) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 338 Tm (180,659) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 338 Tm () Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 222 m 549 222 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 201 Tm (HOW TO USE THESE VALUES) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 180 Tm (Block fuel includes planned taxi fuel; do not confuse it with takeoff fuel.) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 164 Tm (The FMS minimum destination fuel should be checked against the applicable planning requirement;) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 151 Tm (never lower it only to clear a warning.) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 135 Tm (OFP page 3 also gives rounded values: ZFW 173.6t, fuel 20.2t, TOW 193.6t.) Tj ET
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+67 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 68 0 R /Annots [74 0 R 75 0 R] >>
+endobj
+68 0 obj
+<< /Length 4100 >>
+stream
+0.12 0.42 0.64 rg 0 830 595 12 re f
+BT /F2 9 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 806 Tm (JP-GAME  /  AIRBUS A350  /  SIMBRIEF OFP REFERENCE) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 796 m 549 796 l S
+BT /F1 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 31 Tm (SAMPLE OFP: WAAA - WSSS  |  NOT FOR REAL-WORLD NAVIGATION) Tj ET
+BT /F2 8 Tf 0.35 0.41 0.48 rg 1 0 0 1 535 31 Tm (23) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 49 m 549 49 l S
+BT /F2 17 Tf 0.11 0.17 0.24 rg 1 0 0 1 47 751 Tm (OFP extract C - Performance and weather) Tj ET
+BT /F1 10 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 727 Tm (Takeoff/landing report is on pages 9-10; weather details on page 12) Tj ET
+0.94 0.97 0.98 rg 47 679 502 23 re f
+BT /F2 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 686 Tm (SOURCE) Tj ET
+BT /F2 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 686 Tm (FIELD) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 686 Tm (SAMPLE VALUE) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 657 Tm (Page 9) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 657 Tm (Takeoff runway) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 657 Tm (WAAA 21) Tj ET
+0.94 0.97 0.98 rg 47 621 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 628 Tm (Page 9) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 628 Tm (Takeoff OAT / QNH) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 628 Tm (29 C / 1010 hPa) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 599 Tm (Page 9) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 599 Tm (Runway condition) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 599 Tm (WET) Tj ET
+0.94 0.97 0.98 rg 47 563 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 570 Tm (Page 9) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 570 Tm (FLEX selected temp) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 570 Tm (67 C) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 541 Tm (Page 9) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 541 Tm (Takeoff configuration) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 541 Tm (Flaps 1, bleeds ON) Tj ET
+0.94 0.97 0.98 rg 47 505 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 512 Tm (Page 9) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 512 Tm (Landing runway) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 512 Tm (WSSS 02L) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 483 Tm (Page 9) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 483 Tm (Landing configuration) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 483 Tm (Flaps FULL) Tj ET
+0.94 0.97 0.98 rg 47 447 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 454 Tm (Page 10) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 454 Tm (ILS frequency \(02L list\)) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 454 Tm (110.90 MHz) Tj ET
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 425 Tm (Page 12) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 425 Tm (WAAA weather QNH) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 425 Tm (1010 hPa) Tj ET
+0.94 0.97 0.98 rg 47 389 502 23 re f
+BT /F1 9.2 Tf 0.11 0.17 0.24 rg 1 0 0 1 58 396 Tm (Page 12) Tj ET
+BT /F1 9 Tf 0.11 0.17 0.24 rg 1 0 0 1 270 396 Tm (WSSS weather QNH) Tj ET
+BT /F1 8.9 Tf 0.35 0.41 0.48 rg 1 0 0 1 498 396 Tm (1008 hPa) Tj ET
+0.82 0.86 0.89 RG 0.7 w 47 222 m 549 222 l S
+BT /F2 10 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 201 Tm (HOW TO USE THESE VALUES) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 180 Tm (These are time-specific SimBrief planning figures; the OIS must calculate actual takeoff/landing) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 167 Tm (performance for current conditions.) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 151 Tm (Takeoff V-speeds and approach data must be crosschecked against the in-aircraft calculation and) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 138 Tm (current airport charts.) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 122 Tm (This appendix contains faithful text extracts and highlights, not raster screenshots; original) Tj ET
+BT /F1 8.5 Tf 0.35 0.41 0.48 rg 1 0 0 1 47 109 Tm (page screenshots can replace them in a later revision.) Tj ET
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+69 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+70 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+71 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48.0 57.0 220.0 80.0] /Border [0 0 0] /A << /S /GoTo /D [61 0 R /Fit] >> >>
+endobj
+72 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+73 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48.0 57.0 220.0 80.0] /Border [0 0 0] /A << /S /GoTo /D [63 0 R /Fit] >> >>
+endobj
+74 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+75 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48.0 57.0 220.0 80.0] /Border [0 0 0] /A << /S /GoTo /D [65 0 R /Fit] >> >>
+endobj
+76 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 66.0 543.0 87.0] /Border [0 0 0] /A << /S /GoTo /D [61 0 R /Fit] >> >>
+endobj
+77 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+78 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+79 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+80 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+81 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+82 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+83 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+84 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+85 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+86 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+87 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+88 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+89 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+90 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+91 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+92 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+93 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+94 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+95 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+96 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+97 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+98 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+99 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+100 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+101 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+102 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+103 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+104 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+105 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+106 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+107 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+108 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+109 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+110 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+111 0 obj
+<< /Type /Annot /Subtype /Link /Rect [426.0 57.0 549.0 79.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+112 0 obj
+<< /Type /Annot /Subtype /Link /Rect [46.0 729.0 545.0 765.0] /Border [0 0 0] /A << /S /GoTo /D [5 0 R /Fit] >> >>
+endobj
+113 0 obj
+<< /Length 108 >>
+stream
+BT /F2 9.3 Tf 0.12 0.42 0.64 rg 1 0 0 1 47 74 Tm (EXAMPLE SIMBRIEF OFP: CLICK FOR ANNOTATED EXTRACTS) Tj ET
+endstream
+endobj
+114 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+115 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+116 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+117 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+118 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+119 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+120 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+121 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+122 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+123 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+124 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+125 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+126 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+127 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+128 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+129 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+130 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+131 0 obj
+<< /Length 73 >>
+stream
+BT /F2 8 Tf 0.12 0.42 0.64 rg 1 0 0 1 430 65 Tm (BACK TO CONTENTS) Tj ET
+endstream
+endobj
+132 0 obj
+<< /Type /Outlines /First 133 0 R /Last 151 0 R /Count 19 >>
+endobj
+133 0 obj
+<< /Title (How to use this guide) /Parent 132 0 R /Dest [7 0 R /Fit] /Next 134 0 R >>
+endobj
+134 0 obj
+<< /Title (01 - Flight planning and preparation) /Parent 132 0 R /Dest [9 0 R /Fit] /Prev 133 0 R /Next 135 0 R >>
+endobj
+135 0 obj
+<< /Title (02 - Cold and dark: electrical power) /Parent 132 0 R /Dest [11 0 R /Fit] /Prev 134 0 R /Next 136 0 R >>
+endobj
+136 0 obj
+<< /Title (03 - OIS: SimBrief, fuel and payload) /Parent 132 0 R /Dest [13 0 R /Fit] /Prev 135 0 R /Next 137 0 R >>
+endobj
+137 0 obj
+<< /Title (04 - FMS initialisation and company route) /Parent 132 0 R /Dest [15 0 R /Fit] /Prev 136 0 R /Next 138 0 R >>
+endobj
+138 0 obj
+<< /Title (05 - FMS departure, arrival and route check) /Parent 132 0 R /Dest [17 0 R /Fit] /Prev 137 0 R /Next 139 0 R >>
+endobj
+139 0 obj
+<< /Title (06 - Takeoff performance and FCU) /Parent 132 0 R /Dest [19 0 R /Fit] /Prev 138 0 R /Next 140 0 R >>
+endobj
+140 0 obj
+<< /Title (07 - Cockpit and overhead checks) /Parent 132 0 R /Dest [21 0 R /Fit] /Prev 139 0 R /Next 141 0 R >>
+endobj
+141 0 obj
+<< /Title (08 - Pushback and engine start) /Parent 132 0 R /Dest [23 0 R /Fit] /Prev 140 0 R /Next 142 0 R >>
+endobj
+142 0 obj
+<< /Title (09 - Taxi and before takeoff) /Parent 132 0 R /Dest [25 0 R /Fit] /Prev 141 0 R /Next 143 0 R >>
+endobj
+143 0 obj
+<< /Title (10 - Takeoff and initial climb) /Parent 132 0 R /Dest [27 0 R /Fit] /Prev 142 0 R /Next 144 0 R >>
+endobj
+144 0 obj
+<< /Title (11 - Climb and cruise) /Parent 132 0 R /Dest [29 0 R /Fit] /Prev 143 0 R /Next 145 0 R >>
+endobj
+145 0 obj
+<< /Title (12 - Arrival and landing performance) /Parent 132 0 R /Dest [31 0 R /Fit] /Prev 144 0 R /Next 146 0 R >>
+endobj
+146 0 obj
+<< /Title (13 - ILS setup and intercept) /Parent 132 0 R /Dest [33 0 R /Fit] /Prev 145 0 R /Next 147 0 R >>
+endobj
+147 0 obj
+<< /Title (14 - Final approach and landing) /Parent 132 0 R /Dest [35 0 R /Fit] /Prev 146 0 R /Next 148 0 R >>
+endobj
+148 0 obj
+<< /Title (15 - Quick reference: phase gates) /Parent 132 0 R /Dest [37 0 R /Fit] /Prev 147 0 R /Next 149 0 R >>
+endobj
+149 0 obj
+<< /Title (16 - Troubleshooting checkpoints) /Parent 132 0 R /Dest [39 0 R /Fit] /Prev 148 0 R /Next 150 0 R >>
+endobj
+150 0 obj
+<< /Title (17 - Flight test notes and corrections) /Parent 132 0 R /Dest [41 0 R /Fit] /Prev 149 0 R /Next 151 0 R >>
+endobj
+151 0 obj
+<< /Title (SimBrief OFP illustrated extracts) /Parent 132 0 R /Prev 150 0 R /Dest [61 0 R /Fit] >>
+endobj
+xref
+0 152
+0000000000 65535 f 
+0000000015 00000 n 
+0000000105 00000 n 
+0000000317 00000 n 
+0000000387 00000 n 
+0000000462 00000 n 
+0000000751 00000 n 
+0000003635 00000 n 
+0000003805 00000 n 
+0000006065 00000 n 
+0000006236 00000 n 
+0000008413 00000 n 
+0000008585 00000 n 
+0000011143 00000 n 
+0000011315 00000 n 
+0000013611 00000 n 
+0000013783 00000 n 
+0000015860 00000 n 
+0000016032 00000 n 
+0000018888 00000 n 
+0000019060 00000 n 
+0000021734 00000 n 
+0000021906 00000 n 
+0000024255 00000 n 
+0000024427 00000 n 
+0000027425 00000 n 
+0000027597 00000 n 
+0000030114 00000 n 
+0000030286 00000 n 
+0000032682 00000 n 
+0000032855 00000 n 
+0000034882 00000 n 
+0000035056 00000 n 
+0000037308 00000 n 
+0000037482 00000 n 
+0000040615 00000 n 
+0000040789 00000 n 
+0000043723 00000 n 
+0000043897 00000 n 
+0000046604 00000 n 
+0000046778 00000 n 
+0000049513 00000 n 
+0000049687 00000 n 
+0000052653 00000 n 
+0000052784 00000 n 
+0000052915 00000 n 
+0000053047 00000 n 
+0000053179 00000 n 
+0000053311 00000 n 
+0000053443 00000 n 
+0000053575 00000 n 
+0000053707 00000 n 
+0000053839 00000 n 
+0000053971 00000 n 
+0000054103 00000 n 
+0000054235 00000 n 
+0000054367 00000 n 
+0000054499 00000 n 
+0000054631 00000 n 
+0000054763 00000 n 
+0000054895 00000 n 
+0000055027 00000 n 
+0000055182 00000 n 
+0000058242 00000 n 
+0000058404 00000 n 
+0000061909 00000 n 
+0000062071 00000 n 
+0000066038 00000 n 
+0000066200 00000 n 
+0000070352 00000 n 
+0000070482 00000 n 
+0000070612 00000 n 
+0000070742 00000 n 
+0000070872 00000 n 
+0000071002 00000 n 
+0000071132 00000 n 
+0000071262 00000 n 
+0000071392 00000 n 
+0000071522 00000 n 
+0000071653 00000 n 
+0000071783 00000 n 
+0000071914 00000 n 
+0000072044 00000 n 
+0000072175 00000 n 
+0000072305 00000 n 
+0000072436 00000 n 
+0000072566 00000 n 
+0000072697 00000 n 
+0000072827 00000 n 
+0000072958 00000 n 
+0000073088 00000 n 
+0000073219 00000 n 
+0000073349 00000 n 
+0000073480 00000 n 
+0000073610 00000 n 
+0000073741 00000 n 
+0000073871 00000 n 
+0000074002 00000 n 
+0000074132 00000 n 
+0000074263 00000 n 
+0000074393 00000 n 
+0000074525 00000 n 
+0000074656 00000 n 
+0000074788 00000 n 
+0000074919 00000 n 
+0000075051 00000 n 
+0000075182 00000 n 
+0000075314 00000 n 
+0000075445 00000 n 
+0000075577 00000 n 
+0000075708 00000 n 
+0000075840 00000 n 
+0000075971 00000 n 
+0000076103 00000 n 
+0000076263 00000 n 
+0000076387 00000 n 
+0000076511 00000 n 
+0000076635 00000 n 
+0000076759 00000 n 
+0000076883 00000 n 
+0000077007 00000 n 
+0000077131 00000 n 
+0000077255 00000 n 
+0000077379 00000 n 
+0000077503 00000 n 
+0000077627 00000 n 
+0000077751 00000 n 
+0000077875 00000 n 
+0000077999 00000 n 
+0000078123 00000 n 
+0000078247 00000 n 
+0000078371 00000 n 
+0000078495 00000 n 
+0000078573 00000 n 
+0000078676 00000 n 
+0000078808 00000 n 
+0000078941 00000 n 
+0000079074 00000 n 
+0000079212 00000 n 
+0000079352 00000 n 
+0000079481 00000 n 
+0000079610 00000 n 
+0000079737 00000 n 
+0000079862 00000 n 
+0000079989 00000 n 
+0000080107 00000 n 
+0000080240 00000 n 
+0000080365 00000 n 
+0000080493 00000 n 
+0000080623 00000 n 
+0000080752 00000 n 
+0000080887 00000 n 
+trailer
+<< /Size 152 /Root 1 0 R >>
+startxref
+81003
+%%EOF
