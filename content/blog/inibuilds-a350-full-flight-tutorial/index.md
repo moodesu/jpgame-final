@@ -1,9 +1,8 @@
 +++
 authors = ["JPGame"]
-title = "iniBuilds Airbus A350 Full Flight Tutorial — MSFS 2024"
+title = "iniBuilds Airbus A350 Full Flight Tutorial — Step-by-Step"
 date = 2026-11-03
-draft = false
-description = "A step-by-step iniBuilds A350 tutorial in MSFS 2024: cold and dark at Hong Kong, SimBrief and flight management setup, takeoff, descent, ILS approach and shutdown at Taiwan Taoyuan."
+description = "A reusable step-by-step A350 flight-deck guide for MSFS 2024, from cold-and-dark setup through FMS programming, takeoff, approach and shutdown."
 tags = ["MSFS 2024", "A350", "iniBuilds", "SimBrief"]
 categories = ["MSFS", "Tutorial"]
 slug = "inibuilds-airbus-a350-full-flight-tutorial"
@@ -13,376 +12,295 @@ slug = "inibuilds-airbus-a350-full-flight-tutorial"
 
 ## Introduction
 
-Welcome to my full-flight tutorial for the **iniBuilds Airbus A350 in Microsoft Flight Simulator 2024**. As with my [Horizon Boeing 787 tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/), we'll begin with an unpowered aircraft, plan the flight, work through the cockpit procedures, and finish by shutting the aircraft down at our destination.
+This is a follow-along tutorial for the **iniBuilds Airbus A350 in Microsoft Flight Simulator 2024**. Work through the procedure from cold and dark, or use the flight-phase navigator to jump to the stage you are currently flying.
 
-For this example I'm flying from **Hong Kong International (VHHH)** to **Taiwan Taoyuan International (RCTP)**, using SimBrief flight plan **EVTWF2605**, dated 3 November 2026. It's a short flight for an A350, but ideal for learning the workflow because we can practise every major phase without spending hours in cruise.
+The instructions are deliberately **flight-independent**: use the origin, destination, routing, fuel, weights, speeds and weather from *your own* operational flight plan (OFP). The screenshots and recording used to develop these procedures show one particular simulator flight, but its airport and performance numbers are not inputs for every flight.
 
-> **Before you start:** Generate a fresh SimBrief operational flight plan (OFP) for VHHH–RCTP and select the correct A350 variant. The runways, SID, STAR, transition, fuel, cruising altitude and performance numbers below are specific to **EVTWF2605**. Recheck them if you generate a different plan or use updated weather.
+The numbered actions distinguish **what to do** from **what to verify**. For actions not conclusively established in the recordings, follow the applicable in-sim aircraft checklist rather than treating an illustrative flow as authoritative.
+
+{{< a350-print >}}
 
 {{< a350-flight-nav >}}
 
 ## 1. Preparing the flight
 
-For this worked example, we will use the supplied SimBrief OFP **EVTWF2605**, from **VHHH to RCTP**, using the **A350-900 (Trent XWB-84)** profile. If you generate another plan, verify the runways, weather and loading figures against the new OFP.
+Before opening the cockpit, generate a current SimBrief OFP for the correct aircraft variant. Have your departure, destination, alternate and current charts available. See [Connect SimBrief to the A350](/blog/connect-simbrief-inibuilds-a350/) if this is your first flight.
 
-Take a moment to note:
+1. Select the **iniBuilds A350** in MSFS 2024 and load at a parking stand rather than a runway.
+2. Review the SimBrief **origin**, **destination**, **alternate**, **route**, **planned runway and procedures**, **cruise altitude** and **cost index**.
+3. Note the OFP **ZFW**, **block fuel**, estimated takeoff weight and **fuel reserves**.
+4. Obtain current departure and arrival weather. Treat any runway or approach in the OFP as *planned*, not automatically cleared or guaranteed.
+5. Keep the OFP visible on another screen or in the OIS for crosschecking.
 
-| Flight-plan item | Where we'll use it |
+| Flight detail | Enter or verify against |
 |---|---|
-| Departure runway and SID | Flight plan and takeoff briefing |
-| Route and cruising altitude | Flight Management System (FMS) |
-| Arrival, STAR and approach | Descent and approach preparation |
-| Zero fuel weight (ZFW) and block fuel | OIS loadsheet and FMS |
-| Cost index and reserve fuel | FMS flight initialization |
-| Departure and destination weather | Takeoff and landing performance |
+| FROM / TO / ALTN | SimBrief OFP |
+| Flight number / company route | SimBrief OFP |
+| Cruise level / cost index | SimBrief OFP |
+| ZFW / fuel | OFP and actual aircraft load |
+| Runway / SID / STAR / approach | OFP, charts, weather and ATC |
+| QNH / winds / temperature | Current weather, not a previous recording |
+| V1 / VR / V2 / FLEX | **Current OIS takeoff computation**, not a generic table |
 
-You can use live weather, but it is simpler to learn the flow in clear conditions. Airport runways and procedures change with wind and navigation-data cycles. **The planned runways below are from this particular OFP and may need changing for current weather or ATC.** Check the current charts and SimBrief plan before choosing anything.
-
-In MSFS, select the A350 and start at a **parking stand**, rather than on the runway, so we can begin cold and dark.
-
-## Our SimBrief flight: EVTWF2605
-
-This walkthrough uses the supplied **3 November 2026** SimBrief operational flight plan, not an invented route. The OFP is the reference for the following *planned* values. Departure and arrival clearance, active runway, and aircraft-computed speeds can differ in the simulator.
-
-| Item | SimBrief OFP |
-|---|---|
-| Flight | EVTWF2605 / registration EVT359 |
-| Aircraft | Airbus A350-900, Trent XWB-84 |
-| Origin / destination | Hong Kong VHHH → Taiwan Taoyuan RCTP |
-| Departure | Runway **07C**, **DALOL1Y** SID |
-| Arrival | **TONGA1A** STAR, runway **05R** |
-| Filed route | `DALOL1Y DALOL V631 ENVAR M750 TONGA TONGA1A` |
-| Cruise level | **FL390**, cost index **15** |
-| Alternate | **RCKH** (Kaohsiung) |
-| Planned taxi / flight / block | **10 min / 1 h 14 min / 1 h 28 min** |
-| ZFW / estimated takeoff weight | **190,649 kg / 206,643 kg** |
-| Taxi / trip / alternate fuel | **249 kg / 7,410 kg / 4,581 kg** |
-| Final reserve / contingency | **2,511 kg / 1,492 kg** |
-| Planned block fuel | **16,243 kg** |
-
-The OFP lists a planned Hong Kong departure at **08:00 local** and a Taiwan Taoyuan arrival at **09:28 local**. Both are UTC+8. Keep the PDF available throughout the tutorial for comparing the OIS loadsheet, FMS flight plan, and fuel predictions.
-
-### Route to check on the MFD
-
-```text
-VHHH/07C DALOL1Y DALOL V631 ENVAR M750 TONGA TONGA1A RCTP/05R
-```
-
-After loading, inspect the SID, the transition at **DALOL**, airway **V631** to **ENVAR**, airway **M750** to **TONGA**, then the **TONGA1A** arrival. Verify the runway and procedure charts rather than assuming the OFP is an ATC clearance.
-
-### Performance planning values
-
-The OFP's runway analysis assumes **VHHH runway 07C**, takeoff temperature **28°C**, QNH **1018 hPa**, **flaps 1** and a **FLEX temperature of 68°C**. The same report gives approximate takeoff speeds of **V1 139, VR 139 and V2 146 kt** for the planned weight. These are OFP planning figures: **compute and verify the final values using the A350 OIS** with the simulator's actual conditions and loadsheet.
-
-For arrival the OFP lists **RCTP runway 05R**, **26°C**, QNH **1020 hPa**, and **flaps FULL**. The route's top of descent is early, approximately **46 minutes after takeoff** according to the flight log, so start arrival preparation promptly.
+**Check:** You know which plan is current. If you regenerate the OFP, recheck all dependent data in the aircraft.
 
 ## 2. Cold and dark — establishing electrical power
 
 {{< a350-overhead-image >}}
 
+Start on the central **ELEC** overhead panel. Our cockpit screenshot shows **BAT 1**, **BAT EMER 1**, **BAT EMER 2**, **BAT 2**, and **EXT 1 / EXT 2** as distinct controls; there are not four main battery switches.
 
+| Step | Control | Action / indication |
+|---|---|---|
+| 1 | Parking brake | Confirm aircraft secured |
+| 2 | BAT 1 | ON |
+| 3 | BAT EMER 1 | ON |
+| 4 | BAT EMER 2 | ON |
+| 5 | BAT 2 | ON |
+| 6 | EXT 1 / EXT 2 | Connect available external power and confirm the associated electrical indications |
+| 7 | ADIRS selectors 1–3 | NAV; allow alignment as applicable |
 
-From the captain's seat, look up at the overhead. We'll initially power the aircraft from ground power while the engines are off.
+Select the battery switches using their **individual labels**. If ground power is not available, establish an appropriate electrical supply with the APU following the aircraft's start procedure.
 
-| Control | Action |
-|---|---|
-| BAT 1 | ON |
-| BAT EMER 1 | ON |
-| BAT EMER 2 | ON |
-| BAT 2 | ON |
-| External power 1 and 2 | Select when available |
-| ADIRS selectors 1–3 | NAV |
-| Parking brake | SET / confirm |
-| Engine master switches | OFF |
-| Engine start selector | NORM |
-
-The A350 has two main batteries (BAT 1 and BAT 2) and two emergency batteries (BAT EMER 1 and BAT EMER 2). All four are controlled separately by the labelled pushbuttons on the central ELEC overhead panel. For the initial power-up, select them ON in the order BAT 1 → BAT EMER 1 → BAT EMER 2 → BAT 2. External power supplies the aircraft's main electrical system without running an engine. The **ADIRS** (Air Data Inertial Reference System) provides attitude, position and other information needed by the displays and navigation systems. Set all three to NAV and allow initialization to complete.
-
-If external power isn't available, use the OIS ground-services page to request it or follow the APU-powered setup in the in-sim checklist.
-
-**Check:** The cockpit displays are powered, and the aircraft is stationary with its engines off. Do not rush ahead simply because the screens have illuminated.
+**Check:** The aircraft is powered, the flight displays have initialised, and any ADIRS alignment is progressing or complete. A navigation-accuracy warning is not a normal confirmation of a completed setup.
 
 ## 3. Introducing the A350's cockpit interfaces
 
-Coming from the 787, one of the biggest differences is how the A350 distributes its controls. Before entering a route, it's useful to identify four interfaces:
+You will move between these interfaces repeatedly during flight preparation:
 
-- **OIS — Onboard Information System.** The outboard tablet-style display for flight operations, SimBrief import, loading, charts, ground services, and takeoff/landing calculations.
-- **MFD — Multi-Function Display.** Used for flight-plan pages and management functions that you'd associate with an FMC/CDU on other aircraft.
-- **KCCU — Keyboard and Cursor Control Unit.** An input method for interacting with the A350's MFD pages.
-- **FCU — Flight Control Unit.** The glareshield controls for selected altitude, speed, heading and vertical guidance.
+| Interface | Main purpose |
+|---|---|
+| **OIS** — Onboard Information System | Flight operations, ground services, SimBrief, loadsheet and performance |
+| **MFD / FMS** | Initialization, route, runway/procedure selection, and flight-plan review |
+| **KCCU** | Keyboard and cursor control of the relevant display |
+| **FCU** | Autopilot/flight guidance targets: speed, heading, altitude and vertical mode |
+| **PFD / FMA** | Flight instruments and confirmation of active/armed autoflight modes |
+| **ECAM** | Aircraft system status and relevant aircraft messages |
 
-You'll use the OIS to import information and calculate performance, the MFD to review the route and flight-management data, and the FCU to tell the autopilot what you want it to do.
+1. Identify the OIS, both MFDs and their KCCUs.
+2. Check which display is accepting cursor/keyboard input before typing a value.
+3. Read the **FMA** after each change to the autoflight controls.
+
+**Check:** Do not assume an instruction was accepted merely because a button was pressed; look for the resulting indication.
 
 ## 4. Connecting SimBrief and loading the aircraft
 
-**First time setting up SimBrief?** See the separate [guide to connecting SimBrief to the iniBuilds A350](/blog/connect-simbrief-inibuilds-a350/) before importing your flight.
+If SimBrief is not linked, complete the separate [SimBrief connection tutorial](/blog/connect-simbrief-inibuilds-a350/). To **generate** an OFP inside the cockpit rather than importing an existing one, see [Create a SimBrief plan in the OIS](/blog/inibuilds-a350-ois-simbrief-flight-planning/).
 
-**Want to create the flight plan directly from the cockpit?** See my separate guide: [How to create a SimBrief flight plan in the A350 OIS](/blog/inibuilds-a350-ois-simbrief-flight-planning/). It covers connecting your accounts, the FLT OPS PLAN form, generating an OFP, and requesting the route on the FMS. The steps below cover importing an already-generated plan.
+1. Open the OIS **FLT OPS MENU** and navigate to **FLT OPS STS**.
+2. Select **SIMBRIEF IMPORT** for the current OFP and confirm the flight information appears.
+3. Open the OIS **LOADSHEET** and compare the ZFW and fuel figures against the OFP.
+4. Use the appropriate **SET ZFW** and **SET FUEL** controls to apply the loading figures to the simulator aircraft.
+5. Verify the actual loaded weight/fuel before proceeding to takeoff-performance calculations.
 
-On the OIS, go to **OPTIONS → 3RD PARTY** and enter your **SimBrief User ID**. If you use Navigraph, you can also link that account for charts.
+An imported flight *document* is not necessarily an active route in the FMS, nor does it mean that fuel and payload have already been loaded.
 
-Next, open **FLT OPS MENU → FLT OPS STS** and select **SIMBRIEF IMPORT**. Confirm that the imported flight has the correct origin, destination and aircraft details.
-
-Open **LOADSHEET**. Review the imported payload and fuel figures, then use **SET ZFW** and **SET FUEL** to load the intended values into the aircraft. Loading the SimBrief route doesn't necessarily mean the actual aircraft weight and fuel have been set: these are separate steps.
-
-If you use Navigraph, open **TERML CHART** and bookmark the departure, arrival and approach charts you'll need. A departure chart is particularly useful when we check the altitude and speed restrictions programmed into the FMS.
-
-**Check:** The OIS loadsheet matches your intended flight. If you change fuel or payload after calculating takeoff performance, you'll need to recalculate it.
+**Check:** The flight information is correct on the OIS, and the aircraft load agrees with the intended plan.
 
 ## 5. Flight Management System setup
 
-Check the **DATA / STATUS** page on the MFD and confirm that the navigation database is current for your intended flight. Use the **INIT** function with the KCCU to access the flight-management pages.
+The recorded cockpit flow shows the FMS moving from an initial **P.POS / DISCONTINUITY / END OF F-PLN** state to an imported company flight with origin, destination, alternate, cruise level and cost index populated.
 
-Review **ACTIVE / INIT** and the imported flight plan. Confirm the origin and destination. On the IRS page, check that all three inertial reference systems are in NAV.
+### Request the company flight plan
 
-### Select the departure — VHHH runway 07C
+1. Open the MFD **ACTIVE / INIT** page.
+2. Check the FMS is initialised and the appropriate aircraft/navigation data is available.
+3. Use **CPNY F-PLN REQUEST** to request the current SimBrief company flight plan.
+4. Wait for the request to complete; re-open **ACTIVE / INIT** and check **FROM**, **TO**, **ALTN**, **CPNY RTE**, flight number, **CRZ FL** and **CI** against your OFP.
+5. Open **ACTIVE / F-PLN** and verify the route is populated. An initial empty plan or temporary page does not prove the company route has loaded.
 
-The following sequence follows **our own A350 cockpit recording** of entering the Hong Kong departure on the MFD. Unlike a generic FMC instruction, it shows the actual drop-down controls and temporary flight-plan confirmation.
+### Select the departure
 
-1. On the FMS MFD **ACTIVE/INIT** page, check the origin is **VHHH**, the destination is **RCTP**, and the active company flight is the one imported from SimBrief.
-2. Select **DEPARTURE** near the lower left of the MFD. This opens **ACTIVE/F-PLN/DEPARTURE**.
-3. Open the **RWY** drop-down and select **07C**. The selected-departure area now displays **VHHH ILS IZSC**, runway **07C**, runway length **3800 M**, course **067°**, and ILS frequency **109.30**, as shown in the recording.
-4. Open the **SID** drop-down and choose the departure displayed in the aircraft for the route. **Our recording shows DAL01Y** in the MFD (the OFP text names the SID **DALOL1Y**). Verify the SID's exact name and waypoint sequence against the current navigation database and published departure chart rather than assuming those two labels are interchangeable.
-5. Leave **TRANS** as **NONE** if there is no applicable transition in the flight plan. The MFD now displays **TMPY**: these are proposed modifications, not yet the active route.
-6. Return to the temporary flight-plan display. Inspect the new departure legs — in the recording they include **RW07C, HH302, ROVER, HH355, HH356, RAMEN and VEDVO** — and compare their path and altitude restrictions with the chart and OFP.
-7. Select **INSERT TMPY** to activate the proposed route. In the video the legs change from **yellow** (temporary) to **green** (active), confirming the insertion.
+1. Open **DEPARTURE** from the applicable FMS flight-plan page.
+2. Select the **departure runway** assigned or planned for your flight.
+3. Select the **SID** that matches the chart and your route; select a **transition** if applicable.
+4. Inspect the displayed **TMPY** (temporary) modification and the resulting first legs.
+5. Confirm the route matches the intended runway and SID, then select **INSERT TMPY** to accept it.
+6. Return to the flight plan to check the inserted departure legs are now active.
 
-**Check the display:** the screen in our recording also shows an amber **NAV ACCUR DOWNGRADED** message. That is a navigation-accuracy indication, not part of normal SID entry; investigate the aircraft's navigation/ADIRS status before departure rather than ignoring it.
+### Select the arrival
 
-**Video-reference checkpoints:** approximately 0:00 **ACTIVE/INIT**, 0:04 **DEPARTURE**, 0:08–0:12 **07C selected**, 0:18–0:24 **SID selected**, 0:36 **temporary route**, and 0:52 **inserted active route**.
+1. On the flight plan, open the **ARRIVAL** page for the destination airport.
+2. Select the intended **runway** and **approach** (for example, an ILS when appropriate).
+3. Select the published **STAR**, **VIA** and **TRANS** that apply; **NONE** is valid when no such selection is required.
+4. Review the **TMPY** route, approach/course/frequency data and relevant constraints.
+5. Select **INSERT TMPY** only after the proposed arrival is correct.
 
-### Inspect the route
+In the recordings, the arrival remained **TMPY** during part of the selection sequence. Do not describe the arrival as active until an insertion is visibly confirmed.
 
-Switch the navigation display to **PLAN** mode and use the MFD's flight-plan pages to follow the legs in sequence. Check:
+### Review the route and discontinuities
 
-1. The first waypoint after departure matches the SID.
-2. The route contains the waypoints and airways you expect.
-3. Altitude and speed constraints match the published procedure.
-4. There are no unexpected gaps, large turns or discontinuities.
+1. Follow the route from departure to destination using the MFD route list and the navigation display's PLAN view where available.
+2. Compare waypoints, airways, procedure transitions, lateral track and altitude/speed constraints with the OFP and charts.
+3. **Investigate any DISCONTINUITY**. Some are intentional and should not be deleted automatically.
+4. Confirm the final route contains no unexplained gaps or wrong runways.
+5. If wind import is requested, confirm whether the result is actually received; a pending request is not a successful uplink.
 
-An FMS discontinuity is not automatically an error: some are intentional, depending on the procedure. **Don't delete a discontinuity blindly.** Establish why it's there before modifying the route.
-
-Later, during cruise, we'll check the arrival and approach again using up-to-date weather.
+**Check:** The active route and both procedures match your flight. A recorded flight's runway/SID/STAR selections are examples, not defaults.
 
 ## 6. Takeoff performance
 
-The A350's OIS does much of the takeoff calculation for us. Open **T.O PERF**.
+The OIS **T.O PERF** page is visible in the recorded setup. It includes runway conditions and controls such as **SYNC**, **SYNC FMS** and **SYNC SIMBRIEF**; not every recorded page shows a completed calculation.
 
-| OIS action | What it does |
-|---|---|
-| SYNC FMGS | Uses the departure airport and runway from the FMS |
-| SYNC | Imports available current weather and weight information |
-| Runway condition | Select manually: do not assume SYNC detects wet/dry correctly |
-| COMPUTE | Calculates takeoff performance |
-| SEND TO FMGS | Transfers calculated takeoff information to the FMS |
+1. Open **T.O PERF** on the OIS.
+2. Import/synchronise the relevant runway, weather and weight information using the controls appropriate to your aircraft version.
+3. Verify **runway**, **available length**, **runway condition**, **wind**, **QNH**, **temperature**, **takeoff weight**, **flap configuration** and **anti-ice**.
+4. Perform the takeoff calculation in the OIS.
+5. Review the calculated **V1**, **VR**, **V2**, thrust/FLEX setting and any required configuration data.
+6. Transfer the computed performance to the FMS where supported by the OIS.
+7. Check the FMS takeoff page to confirm the intended data were received.
 
-Check the actual runway length and any intersection departure, runway surface, wind, temperature, air-pressure settings, aircraft weight, configuration and anti-ice requirements before computing. Then check the calculated speeds and thrust settings.
-
-Return to the MFD and verify the **takeoff performance page** shows the expected information. Takeoff speeds **V1, VR and V2 are flight-specific**. No example figures are supplied here because entering arbitrary speeds would make this tutorial misleading.
+**Check:** Use only numbers computed for the *current* aircraft load, runway and conditions. Recalculate if any of these inputs change.
 
 ### Preparing the FCU
 
-Set the correct departure **QNH**, then set the initial cleared or published altitude on the FCU. Confirm both flight directors are on.
-
-The Airbus uses **managed** and **selected** guidance. With managed speed or lateral guidance, the aircraft follows the FMS profile. When you select a specific target on the FCU, you're asking it to follow that value instead. As a rule of thumb, **push for managed, pull for selected** where the relevant Airbus FCU knob supports that distinction.
-
-On the primary flight display (PFD), confirm the takeoff speeds and expected armed flight modes. The **Flight Mode Annunciator (FMA)** at the top of the PFD is the authoritative indication of what the autoflight system is actually doing.
+1. Set the departure QNH.
+2. Set the cleared or published initial altitude as applicable.
+3. Check the flight directors and required guidance configuration.
+4. Confirm the selected and armed modes on the **FMA**.
 
 ## 7. Overhead and cockpit preparation
 
-Now we'll complete a cockpit flow, using the overhead from the lower section upward and moving left to right. The following highlights are not a replacement for the full in-sim checklist.
+Continue with the remaining overhead and cockpit preparation using the applicable in-sim checklist. The provided recordings cover parts of this sequence but do **not** independently establish the exact chronological state of every overhead switch.
 
-| Area | Check |
+| Area | Verify |
 |---|---|
-| Crew oxygen | ON |
-| ADIRS | All three NAV |
-| External lighting | Appropriate for stand operations |
-| APU | Start with MASTER SW, then START |
-| Passenger signs | Configure for boarding/departure |
-| APU bleed | ON when APU is available |
-| Fuel pumps | ON as required |
-| Anti-skid / nosewheel steering | ON |
-| Spoilers | Retracted before the later arming step |
-| Parking brake | SET |
-| Engine masters | OFF |
-| Flap lever | Matches actual flap indication |
+| ADIRS / navigation | Correct selector positions and alignment status |
+| Electrical system | Appropriate generator/APU/ground supply |
+| Flight controls | Correct indications and expected responses |
+| Fuel / pneumatic / air | Configuration appropriate for aircraft and conditions |
+| Lighting and signs | Appropriate for current phase |
+| Flight displays | No unexplained warnings |
+| FMS and FCU | Route, departure, takeoff data and initial guidance agreed |
 
-**Why start the APU?** It provides an onboard source of electrical power and pneumatic air so that we can disconnect ground services and start the engines. Wait for the appropriate APU available indication before depending on it.
-
-Finish by crosschecking the PFD and navigation display: correct QNH, departure runway and SID, initial waypoint, programmed speeds and selected initial altitude.
+**Check:** Complete the aircraft's appropriate before-start checklist before pushback.
 
 ## 8. Before start and pushback
 
-Make sure the flight plan and takeoff performance are complete before beginning pushback.
-
-1. On the OIS **GROUND** page, close all doors and remove ground equipment when ready.
-2. Verify door indications on the systems display.
-3. Confirm the APU is available and **APU BLEED** is on.
-4. Switch the beacon on before engine start.
-5. Configure surveillance/transponder settings on the **SURV** page.
-6. Obtain pushback/start clearance if using ATC, then begin pushback.
+1. Review the OIS ground-services page; close doors and remove ground equipment when ready.
+2. Confirm the aircraft has a suitable electrical and pneumatic supply for engine start.
+3. Complete the before-start checks, including the beacon and applicable surveillance settings.
+4. Obtain pushback/engine-start clearance where ATC services are being used.
+5. Begin pushback and monitor aircraft/tug status.
 
 ### Starting the engines
 
-Set the **ENG START** selector to **IGN/START**, then switch an **ENG MASTER** to ON. The aircraft's FADEC manages the starting process. Watch the engine indications as the start develops rather than immediately selecting the other engine.
+Follow the aircraft engine-start checklist. Select the appropriate engine-start configuration, move each engine master to ON in the prescribed sequence, and monitor each engine's indications until a normal start is confirmed.
 
-The manual describes a temporary **AVAIL** indication when a successful start is complete. Repeat the procedure for the other engine.
-
-If a start is abnormal, don't improvise by repeatedly switching controls. Stop the sequence and use the aircraft's applicable abnormal procedure.
+Do not infer an engine start has completed just because a switch moved; check the resulting indications and relevant messages.
 
 ### After-start flow
 
-| Control | Action |
-|---|---|
-| ENG START | NORM |
-| APU BLEED | OFF |
-| APU MASTER | OFF when no longer needed |
-| Ground spoilers | ARM |
-| Rudder trim | RESET |
-| Flaps | Set calculated takeoff configuration |
-| Anti-ice | As required |
-| Systems / ECAM indications | Check |
-
-Make sure the tug has disconnected and you have clearance to taxi before moving.
+Confirm engine start completion, select the required post-start pneumatic and electrical configuration, check ECAM, set the takeoff flap configuration, arm the ground spoilers as appropriate, and complete the after-start checklist.
 
 ## 9. Taxi and before takeoff
 
-Before we taxi, check the flight controls. Make smooth full-range movements and confirm the expected control-surface response on the aircraft's systems display. The A350 can bring up the flight-control indications automatically in response to the stick movement.
-
-Arm the appropriate rejected-takeoff autobrake mode and press **T.O CONFIG** to check the takeoff configuration. Review the takeoff memo for outstanding indications.
-
-One particularly useful A350 feature is the **Airport Navigation Function (ANF)**. With the navigation display in an appropriate mode, rotating the ND range into **ZOOM** brings up the airport map, where available. This can make taxiing much easier at an unfamiliar airport.
-
-Release the parking brake and use minimum practical thrust. Keep the speed controlled, especially when turning. At the holding point, stop and review the takeoff briefing: runway, departure path, initial altitude, V-speeds, flap configuration and any expected restrictions.
-
-Before entering the runway, complete the before-takeoff checklist and set exterior lights for departure. Move the ND out of airport-map zoom once lined up so you can see the departure route.
+1. Verify pushback equipment has disconnected and the aircraft is clear to taxi.
+2. Perform the flight-control check using the indicated system displays.
+3. Confirm the departure runway, SID, initial altitude and the FCU/FMA guidance.
+4. Set the intended takeoff flaps and rejected-takeoff braking configuration.
+5. Run **T.O CONFIG** and review the takeoff memo.
+6. Taxi at a controlled speed; use an airport map/ANF display if available and useful.
+7. At the holding point, brief the runway, initial departure path, thrust, V-speeds and any restrictions.
+8. Complete the before-takeoff checklist before runway entry.
 
 ## 10. Takeoff and initial climb
 
-The A350 has two typical takeoff thrust choices:
+1. Confirm the runway and takeoff clearance as applicable.
+2. Apply the **calculated** thrust setting for the flight, using the appropriate FLEX or TOGA selection.
+3. Verify the engine and FMA indications during the takeoff roll.
+4. Rotate at the calculated **VR** and establish a positive climb.
+5. Retract the landing gear when positive climb is confirmed.
+6. Follow the flight directors; engage the autopilot when appropriate.
+7. Observe the programmed thrust-reduction and acceleration phases, and retract flaps according to aircraft indications/checklist.
 
-- **FLEX** applies reduced takeoff thrust when the performance calculation permits it and the correct FLEX temperature is entered.
-- **TOGA** commands full available takeoff thrust.
-
-Use the result of your takeoff calculation. Don't choose a FLEX temperature by guesswork.
-
-On the runway, align carefully with the centreline. Apply the calculated takeoff thrust and confirm the expected FMA indications. Maintain directional control through the takeoff roll.
-
-At **VR**, rotate smoothly and establish a positive climb. Retract the landing gear when safely airborne and climbing. Follow the flight director indications and engage the autopilot when ready.
-
-As the aircraft climbs, monitor the FMA and PFD for the change into climb and navigation modes. Retract the flaps progressively according to the displayed speed indications and the aircraft checklist. Reduce thrust from takeoff power when prompted by the programmed thrust-reduction point and the applicable procedure.
-
-**The important habit:** after every change to the FCU or thrust levers, look at the FMA. The aircraft's actual guidance mode matters more than the mode you thought you selected.
+**Check:** The FMA confirms the modes actually engaged, not merely those requested.
 
 ## 11. Climb and cruise
 
-The workload drops once the autopilot is engaged and the aircraft is following its programmed lateral and vertical path. That doesn't mean we can stop monitoring it.
-
-Check that the aircraft is complying with the departure altitude and speed restrictions. If ATC gives a new altitude or heading, select it as appropriate and verify the FMA. When cleared, continue the climb to the cruising level from the SimBrief OFP.
-
-During cruise, review your progress against the flight plan:
-
-- Fuel remaining compared with the plan.
-- Distance and estimated time to destination.
-- Destination weather and possible landing runway.
-- Arrival STAR, transition and approach chart.
-- Suitable descent planning and approach configuration.
-
-Because Hong Kong–Taipei is a comparatively short flight, we'll begin planning the descent early.
+1. Follow the assigned departure/climb constraints and monitor speed, altitude and lateral tracking.
+2. Set any changed altitude/heading/speed clearances and verify the FMA.
+3. Compare predicted fuel and estimated arrival time with the OFP.
+4. Review destination weather, arrival runway and approach while workload is low.
+5. Monitor progress towards top of descent, particularly on a short sector.
 
 ## 12. Preparing the arrival
 
-Obtain the latest Taiwan Taoyuan weather and check the appropriate arrival and approach charts. Choose the runway, STAR and approach that match the conditions and any ATC clearance.
-
-Use the MFD flight-plan pages to enter or revise the arrival. Inspect the route in PLAN mode again, including its constraints and any discontinuities. Do not assume the arrival automatically selected by a planning service is the runway you'll actually use.
-
-Next, use **OIS → LDG PERF** to calculate landing performance. Check runway condition **manually**; as with takeoff performance, this isn't reliably inferred by the SYNC function.
-
-Review the landing weight and resulting landing data. Set or confirm the appropriate approach information in the FMS and brief the missed-approach procedure before beginning the final descent.
+1. Obtain the destination weather and available ATC/approach information.
+2. Reassess the intended runway, STAR, approach and transition.
+3. Review or amend the FMS arrival **using TMPY and INSERT TMPY**, as described in Section 5.
+4. Check for discontinuities and constraints.
+5. Open **LDG PERF** on the OIS and verify the landing runway, condition, wind and landing weight.
+6. Calculate the intended landing performance; brief the approach and missed approach.
 
 ## 13. Descent and approach
 
-Use the FMS's descent profile as a guide, but monitor your actual distance, speed and altitude against the arrival constraints.
-
-Set the altitude cleared by ATC or appropriate for the procedure. Use managed descent when applicable and verify the descent mode on the FMA. Selected vertical modes may be useful when you need to comply with particular clearances, but always crosscheck the aircraft's path against the procedure.
-
-As you approach Taiwan Taoyuan:
-
-1. Confirm the assigned approach and runway.
-2. Set the correct local altimeter reference at the appropriate transition level.
-3. Verify the ILS or other approach guidance and its correct identification when applicable.
-4. Configure the aircraft progressively for the approach, respecting speed limits.
-5. Arm or capture the approach guidance as appropriate, watching the FMA.
-6. Extend the landing gear and set the final landing configuration in accordance with the checklist.
-
-An ILS approach is not necessarily an autoland. For a manually flown landing, disconnect the autopilot at a sensible point, maintain the flight-director guidance as appropriate, and make sure the aircraft is stabilized before continuing below the required point.
-
-If you're unstable, or the approach guidance is not behaving as expected, **go around**. Practising that decision is part of learning the aircraft.
+1. Set and verify cleared altitudes on the FCU.
+2. Monitor managed/selected descent modes using the FMA.
+3. Check speed, distance, vertical path and published crossing restrictions.
+4. Verify the selected arrival and approach are correctly represented in the FMS.
+5. Set the appropriate local altimeter reference when required.
+6. Configure progressively for the approach, selecting landing gear/flaps according to the applicable checklist and speed limits.
+7. Confirm stable flight-path, speed, landing configuration and guidance before continuing.
+8. If the approach is unstable or guidance is not as expected, execute the appropriate go-around.
 
 ## 14. Landing, taxi-in and shutdown
 
-On final, monitor the runway alignment, approach speed, descent path and FMA. Retard the thrust levers at the appropriate landing cue. After touchdown, monitor deceleration and use the approved combination of spoilers, reverse thrust and braking for your configuration and runway.
-
-Once clear of the runway, complete the after-landing flow: retract spoilers and flaps as appropriate, reset lights, and begin the taxi-in checklist.
-
-At the parking stand:
-
-| Item | Action |
-|---|---|
-| Parking brake | SET, or chocks as appropriate |
-| APU | Start if needed for power |
-| Electrical supply | Confirm APU or ground power available |
-| Engine masters | OFF |
-| Beacon | OFF once engines have stopped |
-| Seat-belt signs | OFF when appropriate |
-| Ground services | Connect through OIS as required |
-| ADIRS and electrical power | Shut down according to securing checklist |
-
-Take your time during shutdown: make sure you have a valid electrical source before switching off the engines if you still need the cockpit displays. Use the full securing checklist to turn the aircraft completely cold and dark.
+1. Maintain the intended landing path and speed through the final approach.
+2. After touchdown, monitor deceleration; use the aircraft's appropriate spoiler, reverse-thrust and braking procedures.
+3. Vacate the runway and complete the after-landing checklist.
+4. Taxi to the stand and secure the aircraft with parking brake or chocks as appropriate.
+5. Confirm a suitable ground/APU electrical supply before engine shutdown if the cockpit needs to remain powered.
+6. Shut down engines, configure ground services, and follow the aircraft securing checklist.
 
 ## 15. Common problems
 
 ### SimBrief import doesn't appear
 
-Check the SimBrief User ID in **OPTIONS → 3RD PARTY**, confirm you generated an OFP, and retry the import. Check that origin, destination and aircraft type agree with your intended flight.
+Verify the numeric SimBrief ID, that an OFP exists in the account and the intended plan is current. Retry the OIS import and then the separate FMS company-route request.
 
-### The aircraft doesn't follow the route
+### The FMS still shows a discontinuity
 
-Look at the FMA first. Check whether **NAV** is active or armed, inspect the flight plan for discontinuities, and confirm that you haven't unintentionally selected a heading mode.
+Check whether the route is correctly loaded and whether the gap is part of a procedure. **Do not automatically remove all discontinuities.**
 
-### Takeoff speeds are missing
+### The arrival remains yellow / TMPY
 
-Revisit the OIS loadsheet, T.O PERF calculation, **SEND TO FMGS**, and the FMS takeoff performance page. Check whether the aircraft's weight or departure runway changed after the calculation.
+The proposed changes have not yet become the active route. Verify the proposal and use **INSERT TMPY** when appropriate.
 
-### The descent starts too late
+### Takeoff speeds are missing or unexpected
 
-Review the descent profile well before top of descent. A short domestic flight leaves little time to recover if you've remained too high and fast. Use the appropriate Airbus descent guidance rather than simply increasing the descent rate without considering the flight path.
+Check the loadsheet, runway, current conditions and OIS computation. Transfer the data to the FMS and verify receipt.
 
-### Something looks wrong on the autoflight display
+### The aircraft doesn't follow the intended guidance
 
-Read the **FMA**, not just the FCU. The FMA tells you which vertical, lateral and thrust guidance modes are active and armed.
+Read the **FMA** and inspect the route. Determine which guidance mode is actually active.
+
+### A flight-plan wind request is pending
+
+A request does not establish receipt. Check for an explicit successful result or available data before treating the wind uplink as completed.
 
 ## Quick-reference flow
 
-| Phase | Main objective |
+| Phase | Confirm before proceeding |
 |---|---|
-| Power-up | Batteries, ground power, ADIRS |
-| OIS | SimBrief, fuel, payload and charts |
-| MFD | Flight plan, SID and route check |
-| Performance | T.O PERF, transfer data, FCU |
-| Before start | APU, doors, beacon, pushback |
-| Engine start | IGN/START, monitor both engines |
-| Taxi | Flight controls, autobrake, T.O CONFIG |
-| Takeoff | FLEX/TOGA, rotation, positive climb |
-| Cruise | Monitor FMA, route, fuel and arrival |
-| Descent | STAR, approach, landing calculations |
-| Landing | Stable approach, deceleration, runway exit |
-| Shutdown | Parking, ground power/APU, secure |
+| Flight preparation | Current OFP and correct aircraft |
+| Electrical power | Batteries, external/APU supply, ADIRS |
+| OIS | SimBrief data and aircraft loadsheet |
+| FMS | Company route, departure, arrival, active route |
+| Takeoff performance | Computed and transferred flight-specific data |
+| Before start | Ground services, checks, start supply |
+| Engine start | Both starts complete, ECAM checked |
+| Taxi | Flight controls, flaps, T.O CONFIG |
+| Takeoff | Calculated thrust, V-speeds, FMA |
+| Climb/cruise | Constraints, flight progress, fuel |
+| Arrival/descent | Current procedure, performance, clearance |
+| Landing/shutdown | Landing, after-landing and securing checks |
 
 ## Further reading
 
-- [iniBuilds A350 Airliner official aircraft manual](https://forum.inibuilds.com/topic/25085-a350-aircraft-manual/) — the primary reference for the procedures in this guide.
-- [A380 video framework](https://www.youtube.com/watch?v=MsrFyhGewLE&list=PL-4y7fmOeA-WnosVNL7rlVujBef29w8EV&index=2) — for teaching structure only, not A350 procedures.
-- [Horizon Boeing 787 full-flight tutorial](/blog/msfs2020-boeing-787-horizon-full-flight-tutorial/) — our earlier tutorial, which uses a different route (Hakodate–Haneda).
+- [Connect SimBrief to the iniBuilds A350](/blog/connect-simbrief-inibuilds-a350/)
+- [Create a SimBrief plan in the OIS](/blog/inibuilds-a350-ois-simbrief-flight-planning/)
+- [iniBuilds A350 aircraft manual](https://forum.inibuilds.com/topic/25085-a350-aircraft-manual/)
+- [A350 guide collection](/guides/a350/)
 
-*Editorial note: This is the first written draft. Before publication, add our own cockpit screenshots (OIS, MFD, overhead, FCU, takeoff performance, arrival and landing), verify all cockpit flows against the installed aircraft version, and test the VHHH–RCTP flight end to end.*
+*Editorial basis: chronological review of the supplied cockpit recordings (Parts 1–3, 4 November 2026) and the existing site material. The recorded flight used a specific route; all values have been generalised for reuse. Some switch sequences beyond those clearly observable still require validation against the current simulator aircraft checklist.*
