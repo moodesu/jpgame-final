@@ -1,0 +1,555 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3952 >>
+stream
+0.04 0.32 0.40 rg
+0 825.89 595.28 16 re f
+0.07 0.38 0.43 rg
+BT /F2 9 Tf 1 0 0 1 49 790.89 Tm (JP-GAME  /  A350 PROCEDURE SERIES) Tj ET
+0.08 0.17 0.24 rg
+BT /F2 20 Tf 1 0 0 1 49 756.89 Tm (A350 ILS APPROACH) Tj ET
+0.39 0.45 0.49 rg
+BT /F1 9 Tf 1 0 0 1 49 737.89 Tm (Cockpit test guide  |  Generic procedure  |  iniBuilds A350 / MSFS 2024) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 722.89 m 546.28 722.89 l S
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 687.89 Tm (Purpose) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 668.89 Tm (Use this document as a follow-along reference on your next simulator flight. It covers FMS approach) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 654.19 Tm (selection, ILS tuning, FCU approach capture, FMA monitoring, landing configuration and go-around) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 639.49 Tm (decisions.) Tj ET
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 607.79 Tm (Before you begin) Tj ET
+0.24 0.36 0.40 RG
+51 583.79 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 585.79 Tm (Select the intended landing runway and obtain its current ILS chart.) Tj ET
+0.24 0.36 0.40 RG
+51 563.79 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 565.79 Tm (Have current weather, QNH, approach minima and runway information available.) Tj ET
+0.24 0.36 0.40 RG
+51 543.79 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 545.79 Tm (Confirm destination fuel and landing performance are acceptable.) Tj ET
+0.24 0.36 0.40 RG
+51 523.79 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 525.79 Tm (Review the published missed-approach procedure.) Tj ET
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 499.79 Tm (How to use this guide) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 480.79 Tm (Complete the steps in order. Items marked VERIFY describe the cockpit indication or result to) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 466.09 Tm (confirm before continuing. The procedure is generic: do not copy runway, speed, altitude, frequency) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 451.39 Tm (or minima figures from another flight.) Tj ET
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 419.69 Tm (Key indications at a glance) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 400.69 Tm (LS displays localiser and glideslope scales on the PFD; it does not engage approach mode. APPR on) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 385.99 Tm (the FCU arms the ILS approach guidance. Blue FMA labels indicate armed modes; green labels indicate) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 371.29 Tm (modes capturing or active.) Tj ET
+0.92 0.96 0.97 rg
+49 287.59 497.28 62 re f
+0.08 0.34 0.40 rg
+BT /F2 9.40 Tf 1 0 0 1 60 331.59 Tm (AUTOPILOT GUIDANCE) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 314.59 Tm (Always confirm what the FMA actually displays. A selected approach in the FMS is not) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 301.59 Tm (proof that the aircraft has captured the ILS.) Tj ET
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 259.59 Tm (Flight test record) Tj ET
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 240.59 Tm (Flight / callsign) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 238.59 m 546.28 238.59 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 212.59 Tm (Departure -> destination) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 210.59 m 546.28 210.59 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 184.59 Tm (Approach / runway) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 182.59 m 546.28 182.59 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 156.59 Tm (ILS frequency / course) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 154.59 m 546.28 154.59 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 128.59 Tm (QNH / weather) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 126.59 m 546.28 126.59 l S
+0.79 0.82 0.84 RG
+1 w 49 53 m 546.28 53 l S
+0.43 0.47 0.50 rg
+BT /F1 8 Tf 1 0 0 1 49 38 Tm (SIMULATION USE ONLY  |  Version 1.0  |  04 Nov 2026) Tj ET
+0.43 0.47 0.50 rg
+BT /F2 8 Tf 1 0 0 1 522.28 38 Tm (1 / 5) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4299 >>
+stream
+0.04 0.32 0.40 rg
+0 825.89 595.28 16 re f
+0.07 0.38 0.43 rg
+BT /F2 9 Tf 1 0 0 1 49 790.89 Tm (JP-GAME  /  A350 PROCEDURE SERIES) Tj ET
+0.08 0.17 0.24 rg
+BT /F2 20 Tf 1 0 0 1 49 756.89 Tm (1. FMS & approach preparation) Tj ET
+0.39 0.45 0.49 rg
+BT /F1 9 Tf 1 0 0 1 49 737.89 Tm (Complete before the localiser intercept.) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 722.89 m 546.28 722.89 l S
+0.07 0.36 0.43 rg
+49 683.89 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 690.89 Tm (1) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 696.89 Tm (Select the destination arrival) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 676.89 Tm (On the KCCU/FMS, open the active flight plan. Select the destination airport and open) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 662.69 Tm (ARRIVAL.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 648.49 Tm (VERIFY: Correct destination airport shown.) Tj ET
+0.07 0.36 0.43 rg
+49 608.79 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 615.79 Tm (2) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 621.79 Tm (Choose the correct ILS) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 601.79 Tm (Select the landing runway and its published ILS approach. Set the appropriate STAR, VIA and) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 587.59 Tm (transition if required.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 573.39 Tm (VERIFY: Runway, approach and procedure match the chart and clearance.) Tj ET
+0.07 0.36 0.43 rg
+49 533.69 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 540.69 Tm (3) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 546.69 Tm (Review temporary route changes) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 526.69 Tm (Inspect the proposed flight plan \(TMPY\), including arrival legs, altitude/speed constraints) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 512.49 Tm (and any discontinuities.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 498.29 Tm (VERIFY: No unexplained route gaps or wrong runway.) Tj ET
+0.07 0.36 0.43 rg
+49 458.59 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 465.59 Tm (4) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 471.59 Tm (Commit the flight plan) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 451.59 Tm (Select INSERT TMPY when the proposed arrival is correct. Reopen the active route and verify) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 437.39 Tm (that the modifications have taken effect.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 423.19 Tm (VERIFY: Arrival is active, not still a yellow temporary proposal.) Tj ET
+0.07 0.36 0.43 rg
+49 383.49 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 390.49 Tm (5) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 396.49 Tm (Enter approach performance) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 376.49 Tm (Open PERF > APPR. Enter or verify QNH, temperature, wind, minima, landing configuration and) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 362.29 Tm (approach speed using current flight data.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 348.09 Tm (VERIFY: Performance data align with conditions and the landing plan.) Tj ET
+0.07 0.36 0.43 rg
+49 308.39 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 315.39 Tm (6) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 321.39 Tm (Check the landing calculation) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 301.39 Tm (On OIS LDG PERF, check runway, runway condition, wind and landing weight. Calculate the) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 287.19 Tm (appropriate landing data.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 272.99 Tm (VERIFY: Landing configuration and performance acceptable.) Tj ET
+0.92 0.96 0.97 rg
+49 185.29 497.28 62 re f
+0.08 0.34 0.40 rg
+BT /F2 9.40 Tf 1 0 0 1 60 229.29 Tm (IMPORTANT) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 212.29 Tm (The route in the recordings was Sydney to Makassar; this guide intentionally uses no) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 199.29 Tm (route-specific example values. Check the aircraft against your current flight plan.) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 53 m 546.28 53 l S
+0.43 0.47 0.50 rg
+BT /F1 8 Tf 1 0 0 1 49 38 Tm (SIMULATION USE ONLY  |  Version 1.0  |  04 Nov 2026) Tj ET
+0.43 0.47 0.50 rg
+BT /F2 8 Tf 1 0 0 1 522.28 38 Tm (2 / 5) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4650 >>
+stream
+0.04 0.32 0.40 rg
+0 825.89 595.28 16 re f
+0.07 0.38 0.43 rg
+BT /F2 9 Tf 1 0 0 1 49 790.89 Tm (JP-GAME  /  A350 PROCEDURE SERIES) Tj ET
+0.08 0.17 0.24 rg
+BT /F2 20 Tf 1 0 0 1 49 756.89 Tm (2. Tune, intercept & capture) Tj ET
+0.39 0.45 0.49 rg
+BT /F1 9 Tf 1 0 0 1 49 737.89 Tm (Use the ILS chart and ATC clearance to establish a suitable intercept.) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 722.89 m 546.28 722.89 l S
+0.07 0.36 0.43 rg
+49 683.89 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 690.89 Tm (7) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 696.89 Tm (Verify ILS data) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 676.89 Tm (Open RAD NAV as needed. Verify the displayed ILS identifier, frequency and inbound course) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 662.69 Tm (against the chart. The system may tune automatically.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 648.49 Tm (VERIFY: Correct ILS identified; do not assume auto-tune chose the intended runway.) Tj ET
+0.07 0.36 0.43 rg
+49 608.79 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 615.79 Tm (8) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 621.79 Tm (Display the ILS scales) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 601.79 Tm (Select LS on the relevant glare-shield panel to show localiser and glideslope indications) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 587.59 Tm (on the PFD.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 573.39 Tm (VERIFY: ILS deviation scales visible on PFD.) Tj ET
+0.07 0.36 0.43 rg
+49 533.69 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 540.69 Tm (9) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 546.69 Tm (Arrange the intercept) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 526.69 Tm (Establish an appropriate heading/track and cleared or published altitude to intercept the) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 512.49 Tm (localiser. Normally intercept the descending glideslope from below.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 498.29 Tm (VERIFY: Aircraft is positioned to capture without excessive speed or descent.) Tj ET
+0.07 0.36 0.43 rg
+49 458.59 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 465.59 Tm (10) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 471.59 Tm (Check approach phase) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 451.59 Tm (On the FMS PERF pages, verify the approach phase is active. Activate it manually if needed) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 437.39 Tm (in your installed aircraft version.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 423.19 Tm (VERIFY: Approach-speed logic and relevant targets are appropriate.) Tj ET
+0.07 0.36 0.43 rg
+49 383.49 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 390.49 Tm (11) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 396.49 Tm (Arm approach guidance) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 376.49 Tm (Press APPR on the FCU when appropriately established for the ILS intercept.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 362.29 Tm (VERIFY: LOC and G/S \(or equivalent\) armed indications appear on FMA.) Tj ET
+0.07 0.36 0.43 rg
+49 322.59 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 329.59 Tm (12) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 335.59 Tm (Confirm localiser capture) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 315.59 Tm (Watch the aircraft intercept the runway centreline and monitor the FMA.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 301.39 Tm (VERIFY: LOC* then LOC in green, if displayed by this aircraft version.) Tj ET
+0.07 0.36 0.43 rg
+49 261.69 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 268.69 Tm (13) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 274.69 Tm (Confirm glideslope capture) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 254.69 Tm (Monitor the vertical guidance as the glideslope is intercepted.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 240.49 Tm (VERIFY: G/S* then G/S in green; descent path and altitude consistent with the chart.) Tj ET
+0.92 0.96 0.97 rg
+49 152.79 497.28 62 re f
+0.08 0.34 0.40 rg
+BT /F2 9.40 Tf 1 0 0 1 60 196.79 Tm (IF CAPTURE FAILS) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 179.79 Tm (Check intercept geometry, selected guidance modes, ILS identification and aircraft) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 166.79 Tm (altitude. Do not force a steep descent to chase a glideslope from above.) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 53 m 546.28 53 l S
+0.43 0.47 0.50 rg
+BT /F1 8 Tf 1 0 0 1 49 38 Tm (SIMULATION USE ONLY  |  Version 1.0  |  04 Nov 2026) Tj ET
+0.43 0.47 0.50 rg
+BT /F2 8 Tf 1 0 0 1 522.28 38 Tm (3 / 5) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4437 >>
+stream
+0.04 0.32 0.40 rg
+0 825.89 595.28 16 re f
+0.07 0.38 0.43 rg
+BT /F2 9 Tf 1 0 0 1 49 790.89 Tm (JP-GAME  /  A350 PROCEDURE SERIES) Tj ET
+0.08 0.17 0.24 rg
+BT /F2 20 Tf 1 0 0 1 49 756.89 Tm (3. Final approach & landing) Tj ET
+0.39 0.45 0.49 rg
+BT /F1 9 Tf 1 0 0 1 49 737.89 Tm (Continue only with appropriate aircraft configuration and stable guidance.) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 722.89 m 546.28 722.89 l S
+0.07 0.36 0.43 rg
+49 683.89 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 690.89 Tm (14) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 696.89 Tm (Reduce speed and configure) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 676.89 Tm (Manage speed and select flaps progressively according to displayed limits, aircraft) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 662.69 Tm (configuration and the applicable checklist.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 648.49 Tm (VERIFY: Speed targets and configuration agree with the landing plan.) Tj ET
+0.07 0.36 0.43 rg
+49 608.79 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 615.79 Tm (15) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 621.79 Tm (Extend landing gear) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 601.79 Tm (Select gear DOWN at the appropriate point and complete the landing checklist, including) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 587.59 Tm (spoilers and braking configuration.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 573.39 Tm (VERIFY: Landing gear and required landing indications confirmed.) Tj ET
+0.07 0.36 0.43 rg
+49 533.69 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 540.69 Tm (16) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 546.69 Tm (Monitor the FMA) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 526.69 Tm (Continuously confirm the expected guidance modes and deviation from the localiser and) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 512.49 Tm (glideslope.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 498.29 Tm (VERIFY: LOC and G/S tracking remain satisfactory.) Tj ET
+0.07 0.36 0.43 rg
+49 458.59 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 465.59 Tm (17) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 471.59 Tm (Decide landing method) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 451.59 Tm (For manual landing, disconnect autopilot when ready and follow valid approach guidance. For) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 437.39 Tm (autoland, verify dual autopilot and required landing capability indications.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 423.19 Tm (VERIFY: Do not assume APPR alone guarantees autoland.) Tj ET
+0.07 0.36 0.43 rg
+49 383.49 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 390.49 Tm (18) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 396.49 Tm (Check stability) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 376.49 Tm (Confirm landing configuration, runway alignment, flight path, descent rate, speed and) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 362.29 Tm (landing clearance according to the applicable criteria.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 348.09 Tm (VERIFY: Aircraft stable by the required gate; otherwise go around.) Tj ET
+0.07 0.36 0.43 rg
+49 308.39 24 23 re f
+1 1 1 rg
+BT /F2 10.50 Tf 1 0 0 1 55 315.39 Tm (19) Tj ET
+0.10 0.20 0.27 rg
+BT /F2 10.50 Tf 1 0 0 1 83 321.39 Tm (Land or go around) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 301.39 Tm (If continuing, fly the flare/touchdown and deceleration using the aircraft procedures. If) Tj ET
+0.17 0.23 0.28 rg
+BT /F1 9.10 Tf 1 0 0 1 83 287.19 Tm (guidance, clearance or stability is unsuitable, execute the published go-around.) Tj ET
+0.06 0.35 0.42 rg
+BT /F1 8.70 Tf 1 0 0 1 83 272.99 Tm (VERIFY: After landing: vacate runway and complete the after-landing flow.) Tj ET
+0.92 0.96 0.97 rg
+49 185.29 497.28 62 re f
+0.08 0.34 0.40 rg
+BT /F2 9.40 Tf 1 0 0 1 60 229.29 Tm (GO-AROUND) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 212.29 Tm (Use the aircraft's prescribed go-around thrust, guidance, configuration and published) Tj ET
+0.16 0.25 0.29 rg
+BT /F1 8.70 Tf 1 0 0 1 60 199.29 Tm (missed approach. Never continue a clearly unstable ILS solely because the autopilot is) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 53 m 546.28 53 l S
+0.43 0.47 0.50 rg
+BT /F1 8 Tf 1 0 0 1 49 38 Tm (SIMULATION USE ONLY  |  Version 1.0  |  04 Nov 2026) Tj ET
+0.43 0.47 0.50 rg
+BT /F2 8 Tf 1 0 0 1 522.28 38 Tm (4 / 5) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 3939 >>
+stream
+0.04 0.32 0.40 rg
+0 825.89 595.28 16 re f
+0.07 0.38 0.43 rg
+BT /F2 9 Tf 1 0 0 1 49 790.89 Tm (JP-GAME  /  A350 PROCEDURE SERIES) Tj ET
+0.08 0.17 0.24 rg
+BT /F2 20 Tf 1 0 0 1 49 756.89 Tm (Quick check & flight-test notes) Tj ET
+0.39 0.45 0.49 rg
+BT /F1 9 Tf 1 0 0 1 49 737.89 Tm (Use this page during the test, then mark any steps needing revision.) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 722.89 m 546.28 722.89 l S
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 687.89 Tm (Approach flow - condensed) Tj ET
+0.24 0.36 0.40 RG
+51 663.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 665.89 Tm (FMS ARRIVAL: runway, ILS, STAR, VIA and TRANS checked.) Tj ET
+0.24 0.36 0.40 RG
+51 643.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 645.89 Tm (TMPY reviewed and inserted; active F-PLN correct.) Tj ET
+0.24 0.36 0.40 RG
+51 623.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 625.89 Tm (PERF APPR: QNH, wind, minima, configuration and VAPP checked.) Tj ET
+0.24 0.36 0.40 RG
+51 603.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 605.89 Tm (RAD NAV: ILS ident, frequency and course verified.) Tj ET
+0.24 0.36 0.40 RG
+51 583.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 585.89 Tm (LS ON: localiser / glideslope scales visible.) Tj ET
+0.24 0.36 0.40 RG
+51 563.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 565.89 Tm (Intercept set up at a suitable altitude and angle.) Tj ET
+0.24 0.36 0.40 RG
+51 543.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 545.89 Tm (FCU APPR armed; LOC and G/S appear armed on FMA.) Tj ET
+0.24 0.36 0.40 RG
+51 523.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 525.89 Tm (LOC green; G/S green; descent and alignment monitored.) Tj ET
+0.24 0.36 0.40 RG
+51 503.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 505.89 Tm (Gear/flaps/landing checklist complete; approach stable.) Tj ET
+0.24 0.36 0.40 RG
+51 483.89 9 9 re S
+0.13 0.19 0.25 rg
+BT /F1 9.20 Tf 1 0 0 1 69 485.89 Tm (Manual landing or verified autoland; go around if unstable.) Tj ET
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 459.89 Tm (FMA interpretation) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 440.89 Tm (LOC / G/S BLUE = armed. LOC* / G/S* GREEN = capturing. LOC / G/S GREEN = captured or active. Exact) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 9.30 Tf 1 0 0 1 49 426.19 Tm (annunciation may vary with the current aircraft version.) Tj ET
+0.06 0.32 0.39 rg
+BT /F2 12.40 Tf 1 0 0 1 49 394.49 Tm (What happened differently in the sim?) Tj ET
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 375.49 Tm (ILS / approach) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 373.49 m 546.28 373.49 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 347.49 Tm (APPR armed at \(NM / ALT\)) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 345.49 m 546.28 345.49 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 319.49 Tm (LOC captured at) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 317.49 m 546.28 317.49 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 291.49 Tm (G/S captured at) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 289.49 m 546.28 289.49 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 263.49 Tm (Autopilot / landing mode) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 261.49 m 546.28 261.49 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 235.49 Tm (Unexpected indication) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 233.49 m 546.28 233.49 l S
+0.13 0.19 0.25 rg
+BT /F2 9.20 Tf 1 0 0 1 49 207.49 Tm (Procedure change to test) Tj ET
+0.79 0.82 0.84 RG
+1 w 193 205.49 m 546.28 205.49 l S
+0.12 0.19 0.25 rg
+BT /F1 8.90 Tf 1 0 0 1 49 179.49 Tm (Test notes: identify the step number, the control selected, the exact FMA/message shown, and the) Tj ET
+0.12 0.19 0.25 rg
+BT /F1 8.90 Tf 1 0 0 1 49 164.79 Tm (result. Screenshots of the FMS, FCU and PFD are especially useful.) Tj ET
+0.79 0.82 0.84 RG
+1 w 49 53 m 546.28 53 l S
+0.43 0.47 0.50 rg
+BT /F1 8 Tf 1 0 0 1 49 38 Tm (SIMULATION USE ONLY  |  Version 1.0  |  04 Nov 2026) Tj ET
+0.43 0.47 0.50 rg
+BT /F2 8 Tf 1 0 0 1 522.28 38 Tm (5 / 5) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 5 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000004157 00000 n 
+0000004300 00000 n 
+0000008650 00000 n 
+0000008793 00000 n 
+0000013494 00000 n 
+0000013637 00000 n 
+0000018125 00000 n 
+0000018269 00000 n 
+0000022260 00000 n 
+0000022405 00000 n 
+0000022489 00000 n 
+trailer
+<< /Size 15 /Root 14 0 R >>
+startxref
+22540
+%%EOF
